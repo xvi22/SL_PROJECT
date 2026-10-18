@@ -1,0 +1,19 @@
+{
+  "hidden": 128,
+  "layers": 2,
+  "dropout": 0.5,
+  "weight_decay": 0.001,
+  "pool": "mean",
+  "bidir": true,
+  "drop_pose_z": true,
+  "hand_relative": true,
+  "seed": 7,
+  "velocity": true,
+  "smooth": 0.1,
+  "LR": 0.001,
+  "features": 346,
+  "n_classes": 100,
+  "train_set": "matched_H128_L2",
+  "train_clips": 1426,
+  "labels": "data\\processed_v2\\labels.csv"
+}

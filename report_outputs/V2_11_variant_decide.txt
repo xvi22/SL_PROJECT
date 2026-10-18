@@ -1,0 +1,104 @@
+Reference (scores of CORRECT exact matches):
+  v1 model top-5: 10th pct 0.45 | 25th pct 0.57 | median 0.66;  top-1 median 0.38
+  nearest neighbours: 10th pct 0.02 | median 0.14
+
+========== WORDS WITH SEVERAL VERSIONS ==========
+      word         gloss  clips  knn  m_top1  m_top5  keep                                    rule
+basketball   BASKETBALL1     43 0.28    0.84    0.86   yes        also scores like a correct match
+basketball   BASKETBALL2     22 0.02    0.05    0.05    no       model score below a correct match
+basketball   BASKETBALL3     23 0.30    0.91    1.00   yes       best version, model recognises it
+       bed          BED1     27 0.34    0.74    0.81   yes        also scores like a correct match
+       bed          BED2     30 0.16    0.50    0.83   yes       best version, model recognises it
+   bowling      BOWLING1     28 0.09    0.18    0.43    no       model score below a correct match
+   bowling      BOWLING2     28 0.14    0.11    0.64   yes       best version, model recognises it
+       can          CAN1     31 0.03    0.94    1.00   yes       best version, model recognises it
+       can          CAN2     28 0.00    0.04    0.04    no       model score below a correct match
+     candy        CANDY1     27 0.20    0.19    0.44    no       model score below a correct match
+     candy        CANDY2     30 0.23    0.23    0.57   yes       best version, model recognises it
+     cheat        CHEAT1     29 0.09     NaN     NaN    no    lower than best (nearest neighbours)
+     cheat        CHEAT2     27 0.13     NaN     NaN check best version, but weak score (new word)
+      city         CITY1     30 0.52    0.70    0.90   yes        also scores like a correct match
+      city         CITY2     31 0.54    0.81    0.97   yes       best version, model recognises it
+      cool         COOL1     29 0.19    0.03    0.17    no       model score below a correct match
+      cool         COOL2     28 0.09    0.18    0.32    no       model score below a correct match
+      cool         COOL3     31 0.03    0.03    0.35    no       model score below a correct match
+      cool         COOL4     28 0.16    0.61    0.79   yes       best version, model recognises it
+      corn         CORN1     30 0.13    0.30    0.53    no       model score below a correct match
+      corn         CORN2     31 0.22    0.45    0.87   yes       best version, model recognises it
+      corn         CORN3     30 0.11    0.20    0.60    no       model score below a correct match
+      dark         DARK1     39 0.46    0.85    0.97   yes       best version, model recognises it
+      dark         DARK2     21 0.36    0.81    0.95   yes        also scores like a correct match
+      deaf         DEAF1     38 0.38    0.13    0.39 check       best version, but model score low
+      deaf         DEAF2     22 0.09    0.00    0.00    no       model score below a correct match
+    decide       DECIDE1     35 0.04    0.51    0.86   yes        also scores like a correct match
+    decide       DECIDE2     22 0.04    0.73    1.00   yes       best version, model recognises it
+    doctor       DOCTOR1     29 0.10    0.48    0.66   yes       best version, model recognises it
+    doctor       DOCTOR2     29 0.08    0.21    0.55    no       model score below a correct match
+       dog          DOG1     39 0.03    0.54    0.85   yes        also scores like a correct match
+       dog          DOG2     30 0.01    0.63    0.90   yes        also scores like a correct match
+       dog          DOG3     15 0.01    0.47    0.87   yes        also scores like a correct match
+       dog          DOG4     14 0.09    0.71    0.93   yes       best version, model recognises it
+     drink        DRINK1     30 0.08    0.20    0.47    no       model score below a correct match
+     drink        DRINK2     26 0.17    0.42    0.62   yes       best version, model recognises it
+       eat          EAT1     36 0.33     NaN     NaN   yes         also close (nearest neighbours)
+       eat          EAT2     23 0.39     NaN     NaN   yes       best version (nearest neighbours)
+      fine         FINE1     37 0.08    0.27    0.51    no       model score below a correct match
+      fine         FINE2     22 0.09    0.41    0.64   yes       best version, model recognises it
+    forget     FORGETFUL     30 0.13     NaN     NaN check        near match (different sign name)
+       hat          HAT1     28 0.21    0.64    1.00   yes       best version, model recognises it
+       hat          HAT2     31 0.00    0.06    0.87    no       model score below a correct match
+       how          HOW1     29 0.10    0.07    0.28    no       model score below a correct match
+       how          HOW2     29 0.13    0.55    0.79   yes       best version, model recognises it
+    jacket       JACKET1     28 0.16     NaN     NaN    no    lower than best (nearest neighbours)
+    jacket       JACKET2     22 0.22     NaN     NaN   yes         also close (nearest neighbours)
+    jacket       JACKET3     30 0.22     NaN     NaN   yes         also close (nearest neighbours)
+    jacket       JACKET4     21 0.23     NaN     NaN   yes       best version (nearest neighbours)
+      kiss         KISS1     29 0.09     NaN     NaN    no    lower than best (nearest neighbours)
+      kiss         KISS2     28 0.34     NaN     NaN   yes         also close (nearest neighbours)
+      kiss         KISS3     30 0.35     NaN     NaN   yes       best version (nearest neighbours)
+    letter       LETTER1     27 0.20    0.59    0.81   yes        also scores like a correct match
+    letter       LETTER2     30 0.25    0.40    0.93   yes       best version, model recognises it
+     pizza        PIZZA1     30 0.00    0.00    0.00    no       model score below a correct match
+     pizza        PIZZA2     31 0.03    0.10    0.45 check       best version, but model score low
+     right        RIGHT1     30 0.31    0.53    0.60   yes       best version, model recognises it
+     right        RIGHT2     29 0.03    0.10    0.55    no       model score below a correct match
+     right        RIGHT3     28 0.07    0.11    0.21    no       model score below a correct match
+      same         SAME1     29 0.01     NaN     NaN    no    lower than best (nearest neighbours)
+      same         SAME2     30 0.03     NaN     NaN check best version, but weak score (new word)
+     shirt        SHIRT1     26 0.04    0.50    1.00   yes       best version, model recognises it
+     shirt        SHIRT2     30 0.01    0.37    0.83    no       model score below a correct match
+     short SHORTDISTANCE     30 0.04    0.00    0.20    no       model score below a correct match
+     short   SHORTPERSON     27 0.10    0.63    0.78   yes       best version, model recognises it
+     short        SHORTS     26 0.07    0.00    0.15    no       model score below a correct match
+      tall         TALL1     26 0.25    0.38    0.69   yes        also scores like a correct match
+      tall         TALL2     28 0.39    0.71    0.79   yes       best version, model recognises it
+      walk         WALK1     30 0.01    0.50    0.83   yes       best version, model recognises it
+      walk         WALK2     30 0.00    0.00    0.03    no       model score below a correct match
+      want         WANT1     30 0.14    0.30    0.77   yes       best version, model recognises it
+      want         WANT2     28 0.12    0.21    0.75    no       model score below a correct match
+      what       W.H.A.T     28 0.01    0.14    0.18    no                           fingerspelled
+      what         WHAT1     31 0.10    0.19    0.45    no       model score below a correct match
+      what         WHAT2     30 0.14    0.60    0.87   yes       best version, model recognises it
+     woman        WOMAN1     31 0.11    0.19    0.52    no       model score below a correct match
+     woman        WOMAN2     28 0.16    0.43    0.61   yes       best version, model recognises it
+
+========== CHECK BY EYE ==========
+    word     gloss  clips  knn  m_top1  m_top5  keep                                    rule
+   cheat    CHEAT2     27 0.13     NaN     NaN check best version, but weak score (new word)
+    deaf     DEAF1     38 0.38    0.13    0.39 check       best version, but model score low
+    fish      FISH     29 0.08    0.10    0.21 check           exact match, far below normal
+  forget FORGETFUL     30 0.13     NaN     NaN check        near match (different sign name)
+    give      GIVE     25 0.03    0.08    0.12 check           exact match, far below normal
+language  LANGUAGE     30 0.00     NaN     NaN check           exact match, far below normal
+    last      LAST     30 0.02    0.10    0.20 check           exact match, far below normal
+   later     LATER     32 0.12    0.00    0.16 check           exact match, far below normal
+   pizza    PIZZA2     31 0.03    0.10    0.45 check       best version, but model score low
+    same     SAME2     30 0.03     NaN     NaN check best version, but weak score (new word)
+
+========== SUMMARY ==========
+Glosses: yes 104 | no 30 | check 10
+Words with 2+ versions kept: 11 (basketball, bed, city, dark, decide, dog, eat, jacket, kiss, letter, tall)
+ASL Citizen clips in kept glosses: 2997 (+ up to 302 if all 'check' rows become yes)
+Words with NO ASL Citizen data at the moment: none
+
+Saved data\asl_citizen\variant_final.csv  -> change each 'check' to yes or no after looking at the images

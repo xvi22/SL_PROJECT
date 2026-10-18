@@ -1,0 +1,5 @@
+experiment,val_top1,val_top5,train_top1,gap,best_epoch,epochs,params,ms_per_sign,seconds,hidden,layers,dropout,weight_decay,pool,bidir,drop_pose_z,hand_relative,seed
+E4_seed7,51.7,73.9,97.0,45.3,87,117,232528,4.8,638,64,2,0.5,0.001,mean,True,True,True,7
+E4_seed123,47.2,73.9,97.3,50.2,94,124,232528,5.2,712,64,2,0.5,0.001,mean,True,True,True,123
+E5_shape_whole,44.9,72.7,99.2,54.3,63,93,727120,23.4,660,128,2,0.3,0.0001,mean,True,True,True,42
+E6_one_layer,50.0,77.3,97.7,47.7,111,141,133200,6.7,663,64,1,0.5,0.001,mean,True,True,True,42

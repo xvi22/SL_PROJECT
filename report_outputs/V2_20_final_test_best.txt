@@ -1,0 +1,37 @@
+Proof: recomputing validation predictions and comparing with those saved in training...
+Largest difference: 0.000000 -> IDENTICAL
+
+Test clips: 105 (85 v1 words, 20 new words)
+
+========== ONE-TIME TEST: BEST VERSION (3-seed ensembles) ==========
+                model  train_clips  likev1_top1  likev1_top5  all100_top1  all100_top5  new20_top1
+best_matched_ensemble       1426.0         78.8         94.1         76.2         92.4        70.0
+   best_full_ensemble       3913.0         78.8         92.9         79.0         92.4        80.0
+
+Earlier one-time tests on the same clips:
+  v1 (E7, 80 words)    likev1_top1 49.4%, likev1_top5 76.5%
+  v2-matched (E7)      likev1_top1 62.4%, likev1_top5 89.4%, all100_top1 62.9%, all100_top5 89.5%
+  v2-full (E7)         likev1_top1 69.4%, likev1_top5 89.4%, all100_top1 70.5%, all100_top5 88.6%
+
+========== SINGLE MODELS ==========
+               model  likev1_top1  likev1_top5  all100_top1  all100_top5
+ best_matched_seed42         75.3         89.4         73.3         90.5
+  best_matched_seed7         72.9         89.4         69.5         91.4
+best_matched_seed123         68.2         91.8         66.7         90.5
+    best_full_seed42         70.6         91.8         71.4         91.4
+     best_full_seed7         78.8         91.8         78.1         92.4
+   best_full_seed123         78.8         89.4         77.1         89.5
+
+========== CONFIDENCE ('not sure' below 0.3), ensembles, 105 clips ==========
+                model  conf_right  conf_wrong  answered_pct  correct_when_answered_pct
+best_matched_ensemble        0.57        0.30          73.3                       87.0
+   best_full_ensemble        0.65        0.29          81.0                       87.1
+
+========== SIZE AND SPEED ==========
+                model    params  ms_per_sign
+best_matched_ensemble 1674540.0         17.8
+   best_full_ensemble 1674540.0          4.9
+
+Notes: 1 test clip = 1.2 points (85) / 1.0 point (105). Published WLASL100 (official test set, not ours):
+I3D 65.89%, SPOTER 63.18% top-1. Several choices were made on validation, so validation was optimistic.
+Saved runs\final_test_best. Do not run this script again.

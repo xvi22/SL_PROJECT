@@ -1,0 +1,31 @@
+
+========== CLEANING SUMMARY (v2 -> v3) ==========
+Rule: duplicates (< 0.15) removed, then nearest hand per pose wrist, within 1.0 shoulder widths
+Frames changed: 942
+Duplicate hands removed: 492 in 252 clips
+Hands discarded (too far from any wrist): 368 in 166 clips
+Hands moved to the other slot: 526 in 228 clips
+Any hand detected (mean share of frames): v2 66.5% -> v3 66.4%
+
+Clips now below the usable bar (20% of frames with a hand): 1
+video_id word  any_hand_share
+   24636 give           0.152
+Usable clips per word: min 8, mean 10.8
+Words below 8 usable clips: none
+
+Clips with the most hands discarded:
+video_id  word  duplicates_removed  hands_discarded  hands_moved
+   24636  give                   1               59            2
+   64088 wrong                   0               28            3
+   69343  give                   4               12           15
+   28108   hot                   4               10            9
+   34733   man                   1                8            9
+
+Saved landmarks_v3\*.npy and landmarks_index_v3.csv
+
+========== BEFORE / AFTER IMAGES ==========
+28108 (hot): frames [11, 13, 19] -> clean_checks\28108_v2_v3.png
+34733 (man): frames [39, 40, 41] -> clean_checks\34733_v2_v3.png
+64088 (wrong): frames [34, 35, 36] -> clean_checks\64088_v2_v3.png
+17016: no frames changed
+24636 (give): frames [3, 4, 5] -> clean_checks\24636_v2_v3.png

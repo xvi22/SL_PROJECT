@@ -1,0 +1,41 @@
+========== SPLIT OF THE 20 NEW WORDS ==========
+train:  101 clips
+  val:   28 clips
+ test:   20 clips
+
+Per word:
+split     train  val  test
+word                      
+africa        6    2     1
+birthday      4    1     1
+book          4    1     1
+but           5    1     1
+chair         5    1     1
+cheat         7    2     1
+clothes       3    1     1
+color         5    2     1
+cow           6    2     1
+dance         5    1     1
+eat           5    1     1
+forget        5    1     1
+jacket        5    1     1
+kiss          6    2     1
+language      7    2     1
+need          4    1     1
+paint         5    1     1
+paper         5    2     1
+same          6    2     1
+table         3    1     1
+
+Every new word has at least 1 clip in each group: True
+Words where one signer had to be split across groups: 0
+Clips whose signer also appears in another group (same word): 0
+
+========== ALL 100 WORDS (WLASL only) ==========
+train:  703 clips
+  val:  204 clips
+ test:  105 clips
+v1 rows copied unchanged: 863 (val 176, test 85)
+
+The new TEST clips are now fixed too. Never train or tune on them.
+Saved data\split_new20.csv and data\split_wlasl100.csv

@@ -1,0 +1,14 @@
+========== BASELINE SUMMARY (train/validation only) ==========
+Data: data/processed_v1, split data/split_v1.csv
+Clips: train 602, validation 176, test 85 (not used)
+Features standardised with training-set mean/std: True
+Model: LSTM 2 layers x 128 units, dropout 0.3, 309,840 parameters
+Training: Adam lr 0.001, weight decay 0.0001, batch 32, 100 epochs (214 s)
+Best epoch: 70
+  train top-1 98.2%
+  validation top-1 27.3%, top-5 54.0%
+Gap train - validation (top-1): 70.9% (large gap = overfitting)
+Model processing time: 1.6 ms per sequence on this CPU (for Q4)
+Saved in runs\baseline_20261016_1614
+
+Settings: {"HIDDEN": 128, "LAYERS": 2, "DROPOUT": 0.3, "LR": 0.001, "WEIGHT_DECAY": 0.0001, "BATCH": 32, "MAX_EPOCHS": 200, "PATIENCE": 30, "SEED": 42, "STANDARDISE": true}

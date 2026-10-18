@@ -1,0 +1,4 @@
+experiment,seed,val_top1,val_top5,train_top1,gap,best_epoch,epochs,params,ms_per_sign,seconds
+E7_seed42,42,50.6,77.8,97.5,46.9,103,133,221264,1.2,301
+E7_seed7,7,51.7,76.7,97.7,46.0,114,144,221264,4.6,507
+E7_seed123,123,50.6,77.8,98.7,48.1,104,134,221264,4.6,495

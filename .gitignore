@@ -1,0 +1,12 @@
+# Big data and videos - not uploaded (size and dataset licences)
+data/
+wlasl-processed/
+WLASL-master/
+# Local environment and caches
+venv/
+__pycache__/
+*.pyc
+# Quick tests and local files
+runs/*_quicktest/
+backup_before_tidy.zip
+project_inventory.csv

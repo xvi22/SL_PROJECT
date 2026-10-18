@@ -1,0 +1,70 @@
+========== VALIDATION ERROR ANALYSIS: E7 ENSEMBLE ==========
+Validation clips: 176 | top-1 55.1% | top-5 81.8%
+Groups below come with a 95% range; overlapping ranges = no clear difference.
+
+Words always right on validation: 28 of 80
+Words never right on validation: 22: all, bird, bowling, candy, deaf, doctor, dog, fine, finish, graduate, hearing, how, letter, medicine, pizza, purple, right, secretary, shirt, tell, thanksgiving, white
+
+Most common confusions (true -> guessed):
+  bowling -> dog (3x)
+  bird -> orange (2x)
+  thanksgiving -> cool (2x)
+  white -> like (2x)
+  all -> fine
+  accident -> play
+  before -> play
+  before -> family
+  all -> school
+  bed -> computer
+  candy -> cousin
+  candy -> apple
+
+Colour words: 10 of 14 correct (71%); guessed as another colour when wrong: 0 of 4
+
+========== FACTORS (accuracy %, with 95% range) ==========
+training clips for the word:
+  <=6                      50 clips   52.0%  (38-65)
+  7                        34 clips   47.1%  (32-63)
+  8                        22 clips   59.1%  (39-77)
+  9+                       70 clips   60.0%  (48-71)
+training signers for the word:
+  <=4                      51 clips   47.1%  (34-60)
+  5-6                      96 clips   54.2%  (44-64)
+  7+                       29 clips   72.4%  (54-85)
+signer seen in training:
+  never seen               10 clips   70.0%  (40-89)
+  seen (other words)      166 clips   54.2%  (47-62)
+hand detection in clip:
+  <80%                      5 clips   40.0%  (12-77)
+  80-95%                  156 clips   55.1%  (47-63)
+  >95%                     15 clips   60.0%  (36-80)
+hand gaps filled:
+  no gaps                  34 clips   44.1%  (29-60)
+  some gaps filled        142 clips   57.7%  (50-66)
+one/two-handed (estimated):
+  one-handed               92 clips   53.3%  (43-63)
+  two-handed               84 clips   57.1%  (46-67)
+sign length:
+  short                    66 clips   56.1%  (44-67)
+  medium                   56 clips   51.8%  (39-64)
+  long                     54 clips   57.4%  (44-70)
+frame rate:
+  24-25                    50 clips   48.0%  (35-62)
+  ~30                     125 clips   57.6%  (49-66)
+  50                        1 clips  100.0%  (21-100)
+video height:
+  <=300                    43 clips   55.8%  (41-70)
+  301-500                  87 clips   51.7%  (41-62)
+  >500                     46 clips   60.9%  (46-74)
+
+========== CONFIDENCE (for the live 'not sure' threshold) ==========
+Mean confidence when right 0.43, when wrong 0.26
+  answer only if confidence >= 0.0: answers 100.0% of signs,  55.1% of those correct
+  answer only if confidence >= 0.2: answers  73.9% of signs,  65.4% of those correct
+  answer only if confidence >= 0.3: answers  54.5% of signs,  70.8% of those correct
+  answer only if confidence >= 0.4: answers  35.8% of signs,  81.0% of those correct
+  answer only if confidence >= 0.5: answers  21.6% of signs,  86.8% of those correct
+  answer only if confidence >= 0.6: answers  11.9% of signs,  90.5% of those correct
+  answer only if confidence >= 0.7: answers   8.0% of signs,  85.7% of those correct
+
+Saved runs\analysis_val\per_clip.csv, factors.csv, factors.png, confidence.png

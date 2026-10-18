@@ -1,0 +1,9 @@
+
+Clip 69241: 75 frames at 30.0 fps (2.5 s)
+Array shape: (75, 225)
+Pose detected:        100.0% of frames
+'Left' hand detected:  53.3% of frames
+'Right' hand detected: 46.7% of frames
+Any hand detected:     58.7% of frames
+
+Saved landmarks_test\69241.npy and 69241_check.png

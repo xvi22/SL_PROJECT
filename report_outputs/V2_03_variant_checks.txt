@@ -1,0 +1,5 @@
+Made data\asl_citizen\variant_choice.csv (fill in the 'keep' column with yes / no)
+Making 33 comparison images
+
+Images made: 33 of 33
+Saved in data\asl_citizen\variant_checks

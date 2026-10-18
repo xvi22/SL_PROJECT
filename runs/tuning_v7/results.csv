@@ -1,0 +1,7 @@
+seed,train_clips,best_epoch,epochs,train_top1,params,ms_per_sign,minutes,all100_top1,all100_top5,v1clips_top1,v1clips_top5,likev1_top1,likev1_top5,run,set,base,experiment
+42,1426,90,120,94.1,513124,1.6,5.6,70.1,90.7,69.9,89.8,69.9,92.0,matched_H128_AUG_GEO,matched,H128,AUG_GEO
+7,1426,53,83,90.7,513124,1.7,3.9,66.2,89.2,65.3,88.6,67.6,90.3,matched_H128_AUG_GEO,matched,H128,AUG_GEO
+123,1426,49,79,90.8,513124,1.6,3.7,66.7,86.8,68.8,85.2,71.0,87.5,matched_H128_AUG_GEO,matched,H128,AUG_GEO
+42,1426,45,75,84.4,513124,1.4,3.3,68.1,87.7,68.2,86.9,70.5,89.2,matched_H128_AUG_MIRROR,matched,H128,AUG_MIRROR
+7,1426,54,84,85.7,513124,1.6,3.7,66.2,88.7,64.2,88.1,66.5,90.9,matched_H128_AUG_MIRROR,matched,H128,AUG_MIRROR
+123,1426,73,103,87.7,513124,1.6,4.5,68.1,89.7,67.0,88.6,68.2,92.0,matched_H128_AUG_MIRROR,matched,H128,AUG_MIRROR

@@ -1,0 +1,53 @@
+Train 602 | validation 176 | test 85 (held out, never used here)
+
+----- E6_seed7: 174 features, 133,200 parameters -----
+  epoch  10 | train top1 44.0% | val top1 26.7% top5 54.5%
+  epoch  20 | train top1 66.8% | val top1 36.4% top5 70.5%
+  epoch  30 | train top1 79.4% | val top1 41.5% top5 70.5%
+  epoch  40 | train top1 86.2% | val top1 42.0% top5 75.6%
+  epoch  50 | train top1 90.5% | val top1 43.8% top5 73.9%
+  epoch  60 | train top1 92.4% | val top1 43.2% top5 76.1%
+  epoch  70 | train top1 94.5% | val top1 43.8% top5 76.7%
+  epoch  80 | train top1 95.3% | val top1 44.3% top5 74.4%
+  epoch  90 | train top1 95.7% | val top1 45.5% top5 77.3%
+  epoch 100 | train top1 96.5% | val top1 44.3% top5 77.3%
+  epoch 110 | train top1 96.0% | val top1 46.0% top5 76.1%
+  best epoch 86: val top1 50.6%, top5 78.4%, gap 46.1 points, 1.0 ms per sign
+
+----- E6_seed123: 174 features, 133,200 parameters -----
+  epoch  10 | train top1 42.2% | val top1 22.2% top5 55.1%
+  epoch  20 | train top1 67.6% | val top1 33.5% top5 66.5%
+  epoch  30 | train top1 80.6% | val top1 34.7% top5 73.9%
+  epoch  40 | train top1 86.7% | val top1 41.5% top5 74.4%
+  epoch  50 | train top1 90.5% | val top1 38.1% top5 77.8%
+  epoch  60 | train top1 94.9% | val top1 40.9% top5 78.4%
+  epoch  70 | train top1 95.8% | val top1 39.2% top5 76.1%
+  best epoch 47: val top1 44.9%, top5 76.1%, gap 47.6 points, 1.3 ms per sign
+
+========== ROUND 3 RESULTS (validation only) ==========
+experiment  seed  val_top1  val_top5  train_top1  gap  params
+  E6_seed7     7      50.6      78.4        96.7 46.1  133200
+E6_seed123   123      44.9      76.1        92.5 47.6  133200
+
+========== BEFORE AND AFTER: ROUNDS 1-3 ==========
+ round        experiment  seed  val_top1  val_top5  train_top1  gap  params
+     1       E0_baseline    42      27.3      54.0        98.2 70.9  309840
+     1     E1_regularise    42      26.1      49.4        72.4 46.3  105808
+     1     E2_hand_shape    42      36.4      64.8        98.7 62.3  298064
+     1 E3_whole_sequence    42      41.5      72.2        98.2 56.7  750672
+     1       E4_combined    42      42.6      69.3        94.4 51.7  232528
+     2          E4_seed7     7      51.7      73.9        97.0 45.3  232528
+     2        E4_seed123   123      47.2      73.9        97.3 50.2  232528
+     2    E5_shape_whole    42      44.9      72.7        99.2 54.3  727120
+     2      E6_one_layer    42      50.0      77.3        97.7 47.7  133200
+     3          E6_seed7     7      50.6      78.4        96.7 46.1  133200
+     3        E6_seed123   123      44.9      76.1        92.5 47.6  133200
+
+========== SAME SETUP ACROSS SEEDS (the fair comparison) ==========
+       runs       seeds  val_top1_mean  val_top1_min  val_top1_max  val_top5_mean  params
+setup                                                                                    
+E4        3  7, 42, 123           47.2          42.6          51.7           72.4  232528
+E6        3  7, 42, 123           48.5          44.9          50.6           77.3  133200
+
+Note: 1 validation clip = 0.6 points, so differences under ~3 points may be noise.
+Saved runs\tuning_v3\results.csv and runs\tuning_v3\val_curves.png

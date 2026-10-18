@@ -1,0 +1,105 @@
+WLASL training clips used as reference: 703 (validation/test NOT used)
+ASL Citizen clips checked: 4166 (usable, no long gaps)
+
+========== REFERENCE: CORRECT (exact) MATCHES ==========
+A nearest-neighbour score: 10th pct 0.02 / 25th 0.07 / median 0.14   (random guessing would be about 0.01)
+B v1 model top-5:          10th pct 0.45 / 25th 0.57 / median 0.66   | top-1 median 0.38
+
+========== WORDS WITH SEVERAL CANDIDATE GLOSSES ==========
+      word         gloss  clips  knn  m_top1  m_top5 suggest                                     reason
+basketball   BASKETBALL1     43 0.28    0.84    0.86 unclear almost as good as best - both may be right
+basketball   BASKETBALL2     22 0.02    0.05    0.05      no                    clearly lower than best
+basketball   BASKETBALL3     23 0.30    0.91    1.00     yes                                 best match
+       bed          BED1     27 0.34    0.74    0.81 unclear almost as good as best - both may be right
+       bed          BED2     30 0.16    0.50    0.83 unclear         opinions disagree (A prefers BED1)
+   bowling      BOWLING1     28 0.09    0.18    0.43      no                    clearly lower than best
+   bowling      BOWLING2     28 0.14    0.11    0.64     yes                                 best match
+       can          CAN1     31 0.03    0.94    1.00     yes                                 best match
+       can          CAN2     28 0.00    0.04    0.04      no                    clearly lower than best
+     candy        CANDY1     27 0.20    0.19    0.44 unclear almost as good as best - both may be right
+     candy        CANDY2     30 0.23    0.23    0.57     yes                                 best match
+     cheat        CHEAT1     29 0.09     NaN     NaN      no                    clearly lower than best
+     cheat        CHEAT2     27 0.13     NaN     NaN     yes                                 best match
+      city         CITY1     30 0.52    0.70    0.90 unclear almost as good as best - both may be right
+      city         CITY2     31 0.54    0.81    0.97     yes                                 best match
+      cool         COOL1     29 0.19    0.03    0.17 unclear almost as good as best - both may be right
+      cool         COOL2     28 0.09    0.18    0.32      no                    clearly lower than best
+      cool         COOL3     31 0.03    0.03    0.35      no                    clearly lower than best
+      cool         COOL4     28 0.16    0.61    0.79 unclear        opinions disagree (A prefers COOL1)
+      corn         CORN1     30 0.13    0.30    0.53      no                    clearly lower than best
+      corn         CORN2     31 0.22    0.45    0.87     yes                                 best match
+      corn         CORN3     30 0.11    0.20    0.60      no                    clearly lower than best
+      dark         DARK1     39 0.46    0.85    0.97     yes                                 best match
+      dark         DARK2     21 0.36    0.81    0.95 unclear almost as good as best - both may be right
+      deaf         DEAF1     38 0.38    0.13    0.39 unclear     best, but scores below correct matches
+      deaf         DEAF2     22 0.09    0.00    0.00      no                    clearly lower than best
+    decide       DECIDE1     35 0.04    0.51    0.86 unclear almost as good as best - both may be right
+    decide       DECIDE2     22 0.04    0.73    1.00 unclear      opinions disagree (A prefers DECIDE1)
+    doctor       DOCTOR1     29 0.10    0.48    0.66     yes                                 best match
+    doctor       DOCTOR2     29 0.08    0.21    0.55 unclear almost as good as best - both may be right
+       dog          DOG1     39 0.03    0.54    0.85 unclear almost as good as best - both may be right
+       dog          DOG2     30 0.01    0.63    0.90 unclear almost as good as best - both may be right
+       dog          DOG3     15 0.01    0.47    0.87 unclear almost as good as best - both may be right
+       dog          DOG4     14 0.09    0.71    0.93     yes                                 best match
+     drink        DRINK1     30 0.08    0.20    0.47 unclear almost as good as best - both may be right
+     drink        DRINK2     26 0.17    0.42    0.62     yes                                 best match
+       eat          EAT1     36 0.33     NaN     NaN unclear almost as good as best - both may be right
+       eat          EAT2     23 0.39     NaN     NaN     yes                                 best match
+      fine         FINE1     37 0.08    0.27    0.51 unclear almost as good as best - both may be right
+      fine         FINE2     22 0.09    0.41    0.64     yes                                 best match
+    forget     FORGETFUL     30 0.13     NaN     NaN     yes                                 best match
+       hat          HAT1     28 0.21    0.64    1.00     yes                                 best match
+       hat          HAT2     31 0.00    0.06    0.87 unclear almost as good as best - both may be right
+       how          HOW1     29 0.10    0.07    0.28      no                    clearly lower than best
+       how          HOW2     29 0.13    0.55    0.79     yes                                 best match
+    jacket       JACKET1     28 0.16     NaN     NaN      no                    clearly lower than best
+    jacket       JACKET2     22 0.22     NaN     NaN unclear almost as good as best - both may be right
+    jacket       JACKET3     30 0.22     NaN     NaN unclear almost as good as best - both may be right
+    jacket       JACKET4     21 0.23     NaN     NaN     yes                                 best match
+      kiss         KISS1     29 0.09     NaN     NaN      no                    clearly lower than best
+      kiss         KISS2     28 0.34     NaN     NaN unclear almost as good as best - both may be right
+      kiss         KISS3     30 0.35     NaN     NaN     yes                                 best match
+    letter       LETTER1     27 0.20    0.59    0.81 unclear almost as good as best - both may be right
+    letter       LETTER2     30 0.25    0.40    0.93     yes                                 best match
+     pizza        PIZZA1     30 0.00    0.00    0.00      no                    clearly lower than best
+     pizza        PIZZA2     31 0.03    0.10    0.45 unclear     best, but scores below correct matches
+     right        RIGHT1     30 0.31    0.53    0.60     yes                                 best match
+     right        RIGHT2     29 0.03    0.10    0.55 unclear almost as good as best - both may be right
+     right        RIGHT3     28 0.07    0.11    0.21      no                    clearly lower than best
+      same         SAME1     29 0.01     NaN     NaN      no                    clearly lower than best
+      same         SAME2     30 0.03     NaN     NaN     yes                                 best match
+     shirt        SHIRT1     26 0.04    0.50    1.00     yes                                 best match
+     shirt        SHIRT2     30 0.01    0.37    0.83 unclear almost as good as best - both may be right
+     short SHORTDISTANCE     30 0.04    0.00    0.20      no                    clearly lower than best
+     short   SHORTPERSON     27 0.10    0.63    0.78     yes                                 best match
+     short        SHORTS     26 0.07    0.00    0.15      no                    clearly lower than best
+      tall         TALL1     26 0.25    0.38    0.69 unclear almost as good as best - both may be right
+      tall         TALL2     28 0.39    0.71    0.79     yes                                 best match
+      walk         WALK1     30 0.01    0.50    0.83     yes                                 best match
+      walk         WALK2     30 0.00    0.00    0.03      no                    clearly lower than best
+      want         WANT1     30 0.14    0.30    0.77     yes                                 best match
+      want         WANT2     28 0.12    0.21    0.75 unclear almost as good as best - both may be right
+      what       W.H.A.T     28 0.01    0.14    0.18      no                              fingerspelled
+      what         WHAT1     31 0.10    0.19    0.45      no                    clearly lower than best
+      what         WHAT2     30 0.14    0.60    0.87     yes                                 best match
+     woman        WOMAN1     31 0.11    0.19    0.52 unclear almost as good as best - both may be right
+     woman        WOMAN2     28 0.16    0.43    0.61     yes                                 best match
+
+Exact matches with a LOW score (double meanings? check by eye): 7
+    word    gloss  clips  knn  m_top1  m_top5 suggest                                reason
+    fish     FISH     29 0.08    0.10    0.21     yes exact match, LOW score - check by eye
+    give     GIVE     25 0.03    0.08    0.12     yes exact match, LOW score - check by eye
+graduate GRADUATE     29 0.05    0.17    0.38     yes exact match, LOW score - check by eye
+ hearing  HEARING     31 0.28    0.23    0.45     yes exact match, LOW score - check by eye
+language LANGUAGE     30 0.00     NaN     NaN     yes exact match, LOW score - check by eye
+    last     LAST     30 0.02    0.10    0.20     yes exact match, LOW score - check by eye
+   later    LATER     32 0.12    0.00    0.16     yes exact match, LOW score - check by eye
+
+========== SUMMARY ==========
+suggest
+unclear    29
+yes        28
+no         20
+Words to check by eye: 30  (basketball, bed, candy, city, cool, dark, deaf, decide, doctor, dog, drink, eat, fine, hat, jacket, kiss, letter, pizza, right, shirt, tall, want, woman, fish, give, graduate, hearing, language, last, later)
+variant_choice.csv: 77 blank rows filled; your own answers unchanged
+Saved data\asl_citizen\variant_auto.csv and data\asl_citizen\variant_choice.csv

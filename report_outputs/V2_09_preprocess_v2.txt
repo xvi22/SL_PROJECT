@@ -1,0 +1,16 @@
+========== PREPROCESSING SUMMARY (v2) ==========
+Clips processed: 5331 | skipped: 0
+Array X: (5331, 64, 197) | words: 100
+
+Clips per source:
+             clips  words  span_median  hand_after
+source                                            
+asl_citizen   4319    100         37.0       0.832
+wlasl_new20    149     20         43.0       0.889
+wlasl_v1       863     80         44.0       0.898
+
+========== CHECK: v1 WLASL clips identical to processed_v1? ==========
+v1 clips: 863 | found in v2: 863 | largest difference: 0.000000
+IDENTICAL - preprocessing unchanged
+
+Saved data\processed_v2\X.npy, y.npy, meta.csv, labels.csv, config.json

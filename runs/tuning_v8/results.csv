@@ -1,0 +1,7 @@
+set,seed,train_clips,best_epoch,epochs,train_top1,params,ms_per_sign,minutes,all100_top1,all100_top5,v1clips_top1,v1clips_top5,likev1_top1,likev1_top5,run,base,experiment
+matched,42,1426,40,70,97.2,558180,5.7,7.4,76.5,93.1,76.1,92.6,78.4,94.3,matched_H128_HAND,H128,HAND
+matched,7,1426,46,76,97.8,558180,5.8,8.5,78.4,92.6,79.5,92.0,81.2,92.6,matched_H128_HAND,H128,HAND
+matched,123,1426,23,53,93.7,558180,6.3,5.9,73.5,90.2,73.3,89.2,74.4,91.5,matched_H128_HAND,H128,HAND
+full,42,3913,46,76,93.9,558180,1.7,7.7,80.4,95.1,80.1,94.3,82.4,95.5,full_H128_HAND,H128,HAND
+full,7,3913,54,84,94.6,558180,1.7,8.2,80.4,94.6,80.7,93.8,83.0,94.3,full_H128_HAND,H128,HAND
+full,123,3913,23,53,92.4,558180,1.5,5.1,80.4,91.7,80.7,90.3,82.4,91.5,full_H128_HAND,H128,HAND

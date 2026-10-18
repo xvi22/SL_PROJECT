@@ -1,0 +1,55 @@
+======================================================================
+1. DISCARDED HANDS PER WORD (usable clips)
+======================================================================
+Overall: 0.97 discards per clip
+
+Top 15 words:
+          clips  discards_per_clip clips_with_discards hand_in_span
+word                                                               
+help         31               2.94                 35%        96.3%
+brown        30               2.80                 37%        98.0%
+pull         28               2.29                 21%        92.5%
+work         31               2.16                 23%        99.1%
+need         30               2.13                 23%        98.0%
+forget       31               1.97                 35%        97.5%
+dance        32               1.91                 41%        97.9%
+fine         61               1.87                 23%        97.9%
+fish         31               1.84                 19%        95.9%
+paper        30               1.77                 23%        93.3%
+short        87               1.71                 28%        93.4%
+birthday     30               1.67                 23%        95.8%
+thin         30               1.63                 13%        97.7%
+hot          31               1.58                 29%        95.2%
+letter       61               1.57                 26%        96.7%
+
+Bottom 5 words:
+         clips  discards_per_clip clips_with_discards hand_in_span
+word                                                              
+play        31               0.16                 13%        98.1%
+mother      30               0.13                 13%        99.6%
+color       30               0.13                 13%        97.6%
+book        31               0.13                 10%        96.7%
+hearing     32               0.06                  3%        97.9%
+
+======================================================================
+2. LONG GAPS INSIDE THE SIGN SPAN (usable clips)
+======================================================================
+Clips with a gap > 10 frames: 153 of 4319 (3.5%)
+  gap length: median 26 frames, max 61
+  these clips' span: median 93 frames (all usable clips: 31)
+  words with the most: dog (16), jacket (11), candy (5), shirt (5), tall (5), chair (4), cool (4), what (4)
+  signers with the most: P15 (61), P39 (14), P46 (13), P33 (13), P30 (9)
+
+======================================================================
+3. CHECK IMAGES
+======================================================================
+  discard_help_1512241224851143-HELP.png
+  discard_brown_08239972066390644-BROWN.png
+  discard_pull_1330735952493638-PULL.png
+  discard_work_6072418103340411-WORK.png
+  gap_34339690863866057-SHORT PERSON.png
+  gap_28400303734276866-CHEAT 2.png
+  gap_3250233036968666-DOG.png
+  gap_46555371480434093-W.H.A.T.png
+
+Saved images in data\asl_citizen\checks_b

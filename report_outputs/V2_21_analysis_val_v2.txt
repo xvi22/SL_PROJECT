@@ -1,0 +1,116 @@
+======================================================================
+1. OVERALL (validation, 176 clips of the 80 v1 words, 80 words allowed)
+======================================================================
+v1:   55.1%   best: 86.4%
+Both right 93 | fixed by best 59 | broken by best 4 | both wrong 20
+New-word clips (best only, 100 words allowed): 78.6% of 28
+
+======================================================================
+2. ACCURACY BY FACTOR (v1 vs best; acc [95% range], n)
+======================================================================
+
+training clips for the word:
+  <=6                    v1  52.0% [38-65] n=50
+  7-8                    v1  51.8% [39-64] n=56
+  9-20                   v1  60.0% [48-71] n=70 | best 100.0% [34-100] n=2
+  21-40                  best  85.5% [79-90] n=145
+  41+                    best  89.7% [74-96] n=29
+
+training signers for the word:
+  <=4                    v1  47.1% [34-60] n=51
+  5-6                    v1  54.2% [44-64] n=96 | best 100.0% [34-100] n=2
+  7-12                   v1  72.4% [54-85] n=29
+  13-30                  best  83.3% [69-92] n=42
+  31+                    best  87.1% [80-92] n=132
+
+ASL Citizen clips for the word:
+  0                      best 100.0% [34-100] n=2
+  1-30                   best  86.4% [79-91] n=125
+  31-60                  best  83.7% [70-92] n=43
+  61+                    best 100.0% [61-100] n=6
+
+hand detection in clip:
+  <80%                   v1  40.0% [12-77] n=5 | best  60.0% [23-88] n=5
+  80-95%                 v1  55.1% [47-63] n=156 | best  89.1% [83-93] n=156
+  >95%                   v1  60.0% [36-80] n=15 | best  66.7% [42-85] n=15
+
+hand gaps filled:
+  no gaps                v1  44.1% [29-60] n=34 | best  88.2% [73-95] n=34
+  some gaps filled       v1  57.7% [50-66] n=142 | best  85.9% [79-91] n=142
+
+sign length:
+  short (<=35)           v1  53.3% [36-70] n=30 | best  83.3% [66-93] n=30
+  medium                 v1  54.5% [44-65] n=77 | best  87.0% [78-93] n=77
+  long (>50)             v1  56.5% [45-68] n=69 | best  87.0% [77-93] n=69
+
+frame rate:
+  24-25                  v1  48.0% [35-62] n=50 | best  90.0% [79-96] n=50
+  ~30                    v1  57.6% [49-66] n=125 | best  84.8% [78-90] n=125
+  50+                    v1 100.0% [21-100] n=1 | best 100.0% [21-100] n=1
+
+video height:
+  <=300                  v1  55.8% [41-70] n=43 | best  90.7% [78-96] n=43
+  301-500                v1  51.7% [41-62] n=87 | best  85.1% [76-91] n=87
+  >500                   v1  60.9% [46-74] n=46 | best  84.8% [72-92] n=46
+
+signer seen in training:
+  never seen             v1  70.0% [40-89] n=10 | best  90.0% [60-98] n=10
+  seen (other words)     v1  54.2% [47-62] n=166 | best  86.1% [80-91] n=166
+
+one/two-handed (estimated):
+  one-handed             v1  51.8% [41-62] n=83 | best  81.9% [72-89] n=83
+  two-handed             v1  58.1% [48-68] n=93 | best  90.3% [83-95] n=93
+
+v1 word vs new word:
+  new word (20)          best  78.6% [60-90] n=28
+  v1 word (80)           best  83.5% [77-88] n=176
+
+======================================================================
+3. WORDS (validation)
+======================================================================
+Improved most (v1 -> best):
+          clips   v1   best  v1_signers  best_signers  asc_clips  change
+word                                                                    
+bowling       3  0.0  100.0           4            30         28   100.0
+all           2  0.0  100.0           4            32         31   100.0
+bird          2  0.0  100.0           7            34         29   100.0
+deaf          2  0.0  100.0           5            35         38   100.0
+dog           2  0.0  100.0           7            42         98   100.0
+fine          2  0.0  100.0           5            26         22   100.0
+graduate      2  0.0  100.0           4            31         29   100.0
+how           2  0.0  100.0           4            30         29   100.0
+medicine      2  0.0  100.0           5            32         31   100.0
+purple        2  0.0  100.0           5            33         30   100.0
+
+Still worst for the best model (all 100 words, at least 2 clips):
+        clips  best  best_signers  asc_clips
+word                                        
+letter      2   0.0            36         57
+right       2   0.0            34         30
+paper       2   0.0            31         29
+same        2   0.0             3          0
+candy       3  33.0            30         30
+cool        3  33.0            30         28
+corn        2  50.0            35         31
+doctor      2  50.0            32         29
+finish      2  50.0            33         31
+full        2  50.0            34         28
+
+Colour words (14 clips): v1 71% -> best 100%
+
+Most common confusions left (best model, all 100 words):
+    word best_guess  times
+   paper     school      2
+accident       pull      1
+  africa     orange      1
+  before        bed      1
+   candy      black      1
+    book       help      1
+computer     cousin      1
+    cool      apple      1
+    cool      brown      1
+   candy       corn      1
+  doctor       same      1
+  finish     mother      1
+
+Saved runs\analysis_val_v2\factors_v1_vs_best.png and CSVs in runs\analysis_val_v2. Validation only - the test set was not used.

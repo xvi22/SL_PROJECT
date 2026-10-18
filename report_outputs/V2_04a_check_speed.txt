@@ -1,0 +1,31 @@
+======================================================================
+1. VIDEO PROPERTIES (40 random videos each)
+======================================================================
+             width  height  pixels_k  frames   fps
+source                                            
+ASL Citizen  640.0   480.0     307.2    82.0  30.0
+WLASL        720.0   400.0     288.0    78.5  30.0
+ASL Citizen most common sizes: 640x480 (39), 960x540 (1)
+WLASL most common sizes: 720x400 (13), 320x240 (8), 288x192 (6), 1920x1080 (5)
+
+ASL Citizen vs WLASL (medians): 1.0x the frames, 1.1x the pixels per frame
+
+======================================================================
+2. FULL SIZE vs SHRUNK TO 640 px (6 ASL Citizen clips)
+======================================================================
+                        clip    size  frames  sec_full  sec_shrunk  pose_gap_sw  hand_gap_sw  hand_full  hand_shrunk
+    3554165983161417-SON.mp4 640x480     150       7.1         4.3          0.0          0.0      0.347        0.347
+06003899001497115-BASKETBALL 640x480      45       1.3         1.3          0.0          0.0      0.311        0.311
+32857613945090347-LANGUAGE.m 640x480      62       1.7         1.8          0.0          0.0      0.452        0.452
+   9999788504770488-PINK.mp4 640x480     126       3.1         3.1          0.0          0.0      0.175        0.175
+08415746218066733-MEDICINE.m 640x480     170       4.4         4.3          0.0          0.0      0.459        0.459
+6492745992285067-CANDY 1.mp4 640x480      45       1.3         4.0          0.0          0.0      0.311        0.311
+
+Mean time per clip: full 3.2 s, shrunk 3.1 s (1.0x faster)
+Mean coordinate difference (shoulder widths): pose 0.000, hands 0.000
+  For scale: the cleaning rule treats hands < 0.15 shoulder widths apart as the SAME hand;
+  real hand-to-wrist distances in WLASL had a median of 0.08.
+Hand found in: full 34.2% of frames, shrunk 34.2%
+
+Estimated total for 4,421 clips, one at a time: full 3.9 h, shrunk 3.8 h
+CPU cores on this laptop: 24 (running several clips at once could cut this further)

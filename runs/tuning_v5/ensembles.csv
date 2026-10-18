@@ -1,0 +1,4 @@
+set,models,train_clips,all100_top1,all100_top5,v1clips_top1,v1clips_top5,likev1_top1,likev1_top5
+w100,3,703,51.5,83.3,50.6,81.8,53.4,83.5
+matched,3,1426,67.6,90.2,67.0,89.2,68.8,89.8
+full,3,3913,74.5,89.2,76.1,88.6,77.8,89.2

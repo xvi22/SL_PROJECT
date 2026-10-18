@@ -1,0 +1,73 @@
+Train 602 | validation 176 | test 85 (held out, never used here)
+
+----- E0_baseline: 197 features, 309,840 parameters -----
+  epoch  10 | train top1 40.4% | val top1 11.9% top5 38.6%
+  epoch  20 | train top1 71.1% | val top1 17.6% top5 47.7%
+  epoch  30 | train top1 83.7% | val top1 23.9% top5 54.0%
+  epoch  40 | train top1 93.5% | val top1 24.4% top5 53.4%
+  epoch  50 | train top1 96.5% | val top1 23.3% top5 58.5%
+  epoch  60 | train top1 96.5% | val top1 25.6% top5 58.0%
+  epoch  70 | train top1 98.2% | val top1 27.3% top5 54.0%
+  epoch  80 | train top1 98.7% | val top1 23.3% top5 54.0%
+  epoch  90 | train top1 98.7% | val top1 26.1% top5 53.4%
+  epoch 100 | train top1 98.8% | val top1 22.2% top5 55.1%
+  best epoch 70: val top1 27.3%, top5 54.0%, gap 70.9 points, 1.4 ms per sign
+
+----- E1_regularise: 197 features, 105,808 parameters -----
+  epoch  10 | train top1 15.3% | val top1 5.1% top5 22.7%
+  epoch  20 | train top1 25.4% | val top1 9.7% top5 33.0%
+  epoch  30 | train top1 40.2% | val top1 15.9% top5 36.4%
+  epoch  40 | train top1 47.0% | val top1 13.6% top5 39.2%
+  epoch  50 | train top1 55.1% | val top1 14.8% top5 44.3%
+  epoch  60 | train top1 61.3% | val top1 18.8% top5 47.2%
+  epoch  70 | train top1 66.4% | val top1 22.2% top5 52.8%
+  epoch  80 | train top1 71.6% | val top1 23.3% top5 51.7%
+  epoch  90 | train top1 76.7% | val top1 24.4% top5 52.3%
+  epoch 100 | train top1 79.7% | val top1 25.0% top5 52.8%
+  epoch 110 | train top1 80.7% | val top1 22.7% top5 54.0%
+  best epoch 82: val top1 26.1%, top5 49.4%, gap 46.3 points, 3.9 ms per sign
+
+----- E2_hand_shape: 174 features, 298,064 parameters -----
+  epoch  10 | train top1 42.7% | val top1 15.9% top5 42.0%
+  epoch  20 | train top1 72.8% | val top1 21.0% top5 54.0%
+  epoch  30 | train top1 84.7% | val top1 25.0% top5 60.8%
+  epoch  40 | train top1 91.7% | val top1 29.5% top5 59.1%
+  epoch  50 | train top1 96.0% | val top1 33.0% top5 63.1%
+  epoch  60 | train top1 96.5% | val top1 31.8% top5 63.6%
+  epoch  70 | train top1 97.5% | val top1 32.4% top5 63.1%
+  epoch  80 | train top1 98.7% | val top1 31.8% top5 63.1%
+  epoch  90 | train top1 98.7% | val top1 34.7% top5 63.6%
+  epoch 100 | train top1 99.2% | val top1 32.4% top5 64.2%
+  epoch 110 | train top1 99.0% | val top1 30.7% top5 67.0%
+  best epoch 81: val top1 36.4%, top5 64.8%, gap 62.3 points, 2.0 ms per sign
+
+----- E3_whole_sequence: 197 features, 750,672 parameters -----
+  epoch  10 | train top1 69.1% | val top1 24.4% top5 61.4%
+  epoch  20 | train top1 91.4% | val top1 37.5% top5 70.5%
+  epoch  30 | train top1 95.8% | val top1 36.4% top5 71.6%
+  epoch  40 | train top1 97.2% | val top1 38.1% top5 69.9%
+  epoch  50 | train top1 98.8% | val top1 38.1% top5 70.5%
+  epoch  60 | train top1 98.7% | val top1 33.5% top5 71.0%
+  best epoch 35: val top1 41.5%, top5 72.2%, gap 56.7 points, 46.3 ms per sign
+
+----- E4_combined: 174 features, 232,528 parameters -----
+  epoch  10 | train top1 45.5% | val top1 23.9% top5 58.0%
+  epoch  20 | train top1 71.3% | val top1 35.2% top5 71.6%
+  epoch  30 | train top1 83.9% | val top1 32.4% top5 74.4%
+  epoch  40 | train top1 89.0% | val top1 35.2% top5 72.7%
+  epoch  50 | train top1 91.7% | val top1 38.1% top5 69.3%
+  epoch  60 | train top1 96.5% | val top1 39.2% top5 73.9%
+  epoch  70 | train top1 96.3% | val top1 36.9% top5 76.1%
+  epoch  80 | train top1 96.8% | val top1 39.2% top5 72.2%
+  best epoch 59: val top1 42.6%, top5 69.3%, gap 51.7 points, 8.1 ms per sign
+
+========== TUNING RESULTS (validation only) ==========
+       experiment  val_top1  val_top5  train_top1  gap  best_epoch  params  ms_per_sign
+      E4_combined      42.6      69.3        94.4 51.7          59  232528          8.1
+E3_whole_sequence      41.5      72.2        98.2 56.7          35  750672         46.3
+    E2_hand_shape      36.4      64.8        98.7 62.3          81  298064          2.0
+      E0_baseline      27.3      54.0        98.2 70.9          70  309840          1.4
+    E1_regularise      26.1      49.4        72.4 46.3          82  105808          3.9
+
+Note: 1 validation clip = 0.6 points, so differences under ~3 points may be noise.
+Saved runs\tuning\results.csv and runs\tuning\val_curves.png

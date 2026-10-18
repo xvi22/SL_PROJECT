@@ -1,0 +1,38 @@
+========== FINAL TEST RESULTS (test set, used once) ==========
+Test clips: 85 across 80 words (1 clip = 1.2 points)
+
+Q1 HEADLINE - E7 ensemble: top-1 49.4%, top-5 76.5%
+
+  single E7 seed 42  : top-1 37.6%  top-5 65.9%
+  single E7 seed 7   : top-1 49.4%  top-5 75.3%
+  single E7 seed 123 : top-1 47.1%  top-5 72.9%
+  single E7 models: top-1 mean 44.7% (range 37.6-49.4), top-5 mean 71.4%
+Q1 targets: Satisfactory > 45% top-1, Excellent >= 60% top-1
+
+Q4: 663,792 parameters in total (3 x 221,264); processing time for the whole ensemble median 2.6 ms, 95th percentile 4.0 ms per sign on this CPU
+Q4 targets: Satisfactory < 1 s, Excellent < 200 ms
+
+Ensemble: 43 of 85 test clips wrong. Confusions (true -> guessed):
+  go -> decide (2x)
+  accident -> play
+  bird -> corn
+  black -> shirt
+  blue -> mother
+  bowling -> dog
+  city -> all
+  cool -> apple
+  cool -> bed
+  basketball -> decide
+  deaf -> corn
+  fine -> study
+Colour words: 1 of 7 test clips correct
+  black -> guessed shirt
+  orange -> guessed hearing
+  blue -> guessed mother
+  white -> guessed like
+  pink -> guessed candy
+  purple -> guessed yes
+Mean confidence when right 0.41, when wrong 0.22
+With the 'not sure' threshold 0.3: answers 40.0% of signs, 79.4% of those correct
+
+Saved runs\final_test\results.txt, per_clip.csv, confusion.png

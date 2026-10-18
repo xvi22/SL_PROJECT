@@ -1,0 +1,14 @@
+{
+  "hidden": 128,
+  "layers": 2,
+  "dropout": 0.3,
+  "weight_decay": 0.0001,
+  "pool": "last",
+  "bidir": false,
+  "drop_pose_z": false,
+  "hand_relative": false,
+  "BATCH": 32,
+  "LR": 0.001,
+  "SEED": 42,
+  "features": 197
+}

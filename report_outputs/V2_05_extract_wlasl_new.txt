@@ -1,0 +1,27 @@
+Clips: 4421 (100 words, 144 glosses). Already done: 4421. To do: 0
+
+========== SUMMARY ==========
+Clips extracted: 4421 | failed: 0
+Usable clips (hand in >= 20% of frames): 4319 of 4421
+
+Clip length (frames): min 10, median 71, 90th percentile 127, max 664
+fps values: [12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0, 31.0, 60.0, 80.0]
+Video sizes (most common first): 640x480 (4248), 960x540 (171), 480x640 (2)
+
+Detection (mean share of frames): pose 99.9%, any hand raw 43.5% -> cleaned 42.8%
+(WLASL for comparison: pose 99.7%, any hand 66.4% after cleaning)
+Cleaning: duplicates removed 1420 in 721 clips, hands discarded 4444 in 1070 clips, moved 1772 in 677 clips
+Clips with pose in < 90% of frames (body cropped / too close?): 12
+
+Usable clips per gloss: min 19, median 30
+Unusable clips per word: dog (9), jacket (9), short (6), give (4), black (3), bowling (3), eat (3), right (3), thursday (3), drink (2), yes (2), cool (2), mother (2), bed (2), hat (2), man (2), wrong (2), pink (2), want (2), basketball (2), cheat (2), city (2), cook (2), pull (2), clothes (1), who (1), fine (1), no (1), finish (1), orange (1), table (1), woman (1), family (1), kiss (1), shirt (1), tall (1), bird (1), corn (1), dark (1), meet (1), play (1), school (1), secretary (1), work (1), africa (1), birthday (1), but (1), decide (1), full (1), paper (1), purple (1), same (1), son (1)
+
+Lowest hand detection (check these by eye):
+                 clip_id   word   gloss  any_hand_share  pose_share
+   9769693490028684-BIRD   bird    BIRD           0.000       1.000
+ 9379494496719258-DARK 2   dark   DARK2           0.000       0.969
+ 2082336345836704-DECIDE decide DECIDE1           0.000       1.000
+0859634019917137-RIGHT 2  right  RIGHT2           0.000       1.000
+    5210609441885852-BED    bed    BED1           0.024       1.000
+
+Saved data\asl_citizen\landmarks, data\asl_citizen\landmarks_v3 and data\asl_citizen\landmarks_index_v3.csv

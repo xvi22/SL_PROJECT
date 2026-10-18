@@ -1,0 +1,152 @@
+v2 training
+Clips in processed_v2: 5331 | words: 100 | sets: w100, matched, full | seeds: (42, 7, 123)
+Building E7 features (same as v1)...
+
+----- w100_seed42: 703 training clips, 346 features, 223,844 parameters -----
+  epoch  10 | train top1 43.4% | val top1 25.0% top5 59.3%
+  epoch  20 | train top1 67.4% | val top1 31.4% top5 69.6%
+  epoch  30 | train top1 80.5% | val top1 34.3% top5 75.0%
+  epoch  40 | train top1 88.6% | val top1 35.8% top5 77.9%
+  epoch  50 | train top1 93.2% | val top1 39.2% top5 76.0%
+  epoch  60 | train top1 94.7% | val top1 41.2% top5 77.9%
+  epoch  70 | train top1 95.9% | val top1 42.2% top5 77.5%
+  epoch  80 | train top1 95.7% | val top1 39.7% top5 77.5%
+  epoch  90 | train top1 96.4% | val top1 43.1% top5 79.9%
+  epoch 100 | train top1 96.9% | val top1 42.2% top5 77.5%
+  epoch 110 | train top1 97.6% | val top1 42.2% top5 79.4%
+  best epoch 88: val top1 47.5%, top5 79.4% | train top1 96.6% | 2 min
+  validation: all 100 47.5% | v1 clips 48.3% | like v1 50.6%
+
+----- w100_seed7: 703 training clips, 346 features, 223,844 parameters -----
+  epoch  10 | train top1 45.2% | val top1 27.5% top5 59.3%
+  epoch  20 | train top1 68.4% | val top1 32.4% top5 70.6%
+  epoch  30 | train top1 81.1% | val top1 38.2% top5 74.0%
+  epoch  40 | train top1 85.5% | val top1 41.2% top5 72.1%
+  epoch  50 | train top1 92.2% | val top1 42.6% top5 73.5%
+  epoch  60 | train top1 93.7% | val top1 43.6% top5 74.5%
+  epoch  70 | train top1 96.4% | val top1 48.5% top5 75.0%
+  epoch  80 | train top1 96.4% | val top1 43.1% top5 74.5%
+  epoch  90 | train top1 97.3% | val top1 46.1% top5 74.5%
+  epoch 100 | train top1 96.7% | val top1 44.6% top5 75.0%
+  epoch 110 | train top1 97.9% | val top1 45.1% top5 75.0%
+  best epoch 86: val top1 50.5%, top5 76.0% | train top1 97.0% | 3 min
+  validation: all 100 50.5% | v1 clips 47.7% | like v1 48.3%
+
+----- w100_seed123: 703 training clips, 346 features, 223,844 parameters -----
+  epoch  10 | train top1 42.2% | val top1 25.0% top5 55.9%
+  epoch  20 | train top1 67.4% | val top1 35.8% top5 73.5%
+  epoch  30 | train top1 80.5% | val top1 39.7% top5 74.5%
+  epoch  40 | train top1 88.5% | val top1 38.7% top5 75.0%
+  epoch  50 | train top1 93.5% | val top1 40.2% top5 77.0%
+  epoch  60 | train top1 95.0% | val top1 43.1% top5 76.5%
+  epoch  70 | train top1 96.7% | val top1 42.6% top5 79.9%
+  epoch  80 | train top1 96.9% | val top1 48.5% top5 79.9%
+  epoch  90 | train top1 97.0% | val top1 43.1% top5 80.9%
+  epoch 100 | train top1 97.0% | val top1 45.1% top5 79.4%
+  epoch 110 | train top1 96.3% | val top1 41.2% top5 79.4%
+  best epoch 80: val top1 48.5%, top5 79.9% | train top1 96.9% | 4 min
+  validation: all 100 48.5% | v1 clips 48.3% | like v1 50.6%
+
+----- matched_seed42: 1426 training clips, 346 features, 223,844 parameters -----
+  epoch  10 | train top1 52.9% | val top1 41.7% top5 74.5%
+  epoch  20 | train top1 72.4% | val top1 53.9% top5 81.4%
+  epoch  30 | train top1 81.3% | val top1 58.3% top5 85.8%
+  epoch  40 | train top1 83.8% | val top1 57.4% top5 87.3%
+  epoch  50 | train top1 87.7% | val top1 60.3% top5 87.3%
+  epoch  60 | train top1 91.1% | val top1 58.3% top5 87.3%
+  epoch  70 | train top1 91.9% | val top1 65.2% top5 85.8%
+  epoch  80 | train top1 92.4% | val top1 61.3% top5 87.7%
+  epoch  90 | train top1 92.6% | val top1 63.7% top5 87.3%
+  epoch 100 | train top1 93.0% | val top1 63.7% top5 89.2%
+  epoch 110 | train top1 93.5% | val top1 60.3% top5 87.3%
+  best epoch 84: val top1 66.7%, top5 89.2% | train top1 93.2% | 4 min
+  validation: all 100 66.7% | v1 clips 66.5% | like v1 67.6%
+
+----- matched_seed7: 1426 training clips, 346 features, 223,844 parameters -----
+  epoch  10 | train top1 55.4% | val top1 42.6% top5 74.5%
+  epoch  20 | train top1 72.6% | val top1 55.4% top5 85.8%
+  epoch  30 | train top1 80.6% | val top1 57.4% top5 86.8%
+  epoch  40 | train top1 85.8% | val top1 58.8% top5 87.3%
+  epoch  50 | train top1 88.4% | val top1 58.3% top5 85.8%
+  epoch  60 | train top1 90.6% | val top1 60.8% top5 86.8%
+  epoch  70 | train top1 90.5% | val top1 55.4% top5 87.3%
+  epoch  80 | train top1 92.1% | val top1 61.3% top5 87.3%
+  epoch  90 | train top1 91.7% | val top1 60.8% top5 86.8%
+  epoch 100 | train top1 92.2% | val top1 58.8% top5 84.8%
+  best epoch 78: val top1 62.7%, top5 89.2% | train top1 90.8% | 4 min
+  validation: all 100 62.7% | v1 clips 61.4% | like v1 63.6%
+
+----- matched_seed123: 1426 training clips, 346 features, 223,844 parameters -----
+  epoch  10 | train top1 54.6% | val top1 45.6% top5 75.5%
+  epoch  20 | train top1 73.4% | val top1 55.4% top5 83.3%
+  epoch  30 | train top1 84.2% | val top1 54.9% top5 87.3%
+  epoch  40 | train top1 87.2% | val top1 54.9% top5 86.3%
+  epoch  50 | train top1 88.6% | val top1 57.8% top5 88.2%
+  epoch  60 | train top1 90.3% | val top1 60.8% top5 88.2%
+  epoch  70 | train top1 92.2% | val top1 59.8% top5 86.3%
+  epoch  80 | train top1 92.4% | val top1 60.3% top5 86.3%
+  epoch  90 | train top1 93.2% | val top1 63.2% top5 88.2%
+  best epoch 64: val top1 64.2%, top5 86.8% | train top1 91.7% | 3 min
+  validation: all 100 64.2% | v1 clips 61.4% | like v1 62.5%
+
+----- full_seed42: 3913 training clips, 346 features, 223,844 parameters -----
+  epoch  10 | train top1 72.7% | val top1 56.9% top5 81.9%
+  epoch  20 | train top1 81.8% | val top1 61.3% top5 86.8%
+  epoch  30 | train top1 84.0% | val top1 65.7% top5 86.3%
+  epoch  40 | train top1 85.6% | val top1 69.1% top5 87.7%
+  epoch  50 | train top1 86.8% | val top1 65.7% top5 84.8%
+  epoch  60 | train top1 86.5% | val top1 67.2% top5 86.3%
+  epoch  70 | train top1 87.5% | val top1 69.6% top5 87.7%
+  best epoch 43: val top1 72.5%, top5 84.8% | train top1 86.5% | 7 min
+  validation: all 100 72.5% | v1 clips 73.3% | like v1 73.3%
+
+----- full_seed7: 3913 training clips, 346 features, 223,844 parameters -----
+  epoch  10 | train top1 72.1% | val top1 57.4% top5 77.5%
+  epoch  20 | train top1 81.0% | val top1 62.7% top5 81.9%
+  epoch  30 | train top1 84.2% | val top1 67.2% top5 86.8%
+  epoch  40 | train top1 86.0% | val top1 66.2% top5 87.3%
+  epoch  50 | train top1 86.2% | val top1 65.2% top5 85.8%
+  epoch  60 | train top1 87.0% | val top1 68.6% top5 87.7%
+  epoch  70 | train top1 87.6% | val top1 70.1% top5 88.7%
+  epoch  80 | train top1 87.6% | val top1 68.1% top5 84.8%
+  best epoch 52: val top1 70.6%, top5 89.2% | train top1 87.0% | 8 min
+  validation: all 100 70.6% | v1 clips 72.2% | like v1 73.9%
+
+----- full_seed123: 3913 training clips, 346 features, 223,844 parameters -----
+  epoch  10 | train top1 72.4% | val top1 56.9% top5 82.8%
+  epoch  20 | train top1 81.7% | val top1 62.3% top5 84.8%
+  epoch  30 | train top1 84.8% | val top1 64.2% top5 85.3%
+  epoch  40 | train top1 86.3% | val top1 64.2% top5 86.3%
+  epoch  50 | train top1 86.2% | val top1 69.6% top5 87.7%
+  epoch  60 | train top1 87.1% | val top1 67.6% top5 87.3%
+  best epoch 32: val top1 70.6%, top5 89.7% | train top1 85.1% | 6 min
+  validation: all 100 70.6% | v1 clips 73.3% | like v1 74.4%
+
+========== SINGLE MODELS (validation) ==========
+    set  seed  train_clips  all100_top1  all100_top5  v1clips_top1  likev1_top1  likev1_top5  train_top1  best_epoch  minutes
+   w100    42          703         47.5         79.4          48.3         50.6         80.1        96.6          88      2.0
+   w100     7          703         50.5         76.0          47.7         48.3         75.6        97.0          86      2.8
+   w100   123          703         48.5         79.9          48.3         50.6         80.1        96.9          80      3.8
+matched    42         1426         66.7         89.2          66.5         67.6         88.6        93.2          84      3.8
+matched     7         1426         62.7         89.2          61.4         63.6         88.6        90.8          78      3.8
+matched   123         1426         64.2         86.8          61.4         62.5         86.9        91.7          64      3.3
+   full    42         3913         72.5         84.8          73.3         73.3         86.4        86.5          43      6.5
+   full     7         3913         70.6         89.2          72.2         73.9         88.6        87.0          52      7.6
+   full   123         3913         70.6         89.7          73.3         74.4         89.2        85.1          32      5.8
+
+========== SAME SET ACROSS SEEDS (average) ==========
+         all100_top1  all100_top5  likev1_top1  likev1_top5  train_top1  likev1_min  likev1_max
+set                                                                                            
+w100            48.8         78.4         49.8         78.6        96.8        48.3        50.6
+matched         64.5         88.4         64.6         88.0        91.9        62.5        67.6
+full            71.2         87.9         73.9         88.1        86.2        73.3        74.4
+
+========== 3-SEED ENSEMBLES (validation) ==========
+    set  models  train_clips  all100_top1  all100_top5  v1clips_top1  v1clips_top5  likev1_top1  likev1_top5
+   w100       3          703         51.5         83.3          50.6          81.8         53.4         83.5
+matched       3         1426         67.6         90.2          67.0          89.2         68.8         89.8
+   full       3         3913         74.5         89.2          76.1          88.6         77.8         89.2
+
+Reference: v1 E7 ensemble on the 176 v1 validation clips: 55.1% top-1 / 81.8% top-5 (80 words)
+Note: 1 validation clip = 0.5 points (204 clips) or 0.6 points (176 v1 clips).
+The test set was not used. Saved runs\tuning_v5\results.csv

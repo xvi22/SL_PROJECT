@@ -1,0 +1,12 @@
+========== SPLIT SUMMARY ==========
+train:  602 clips (70%)
+  val:  176 clips (20%)
+ test:   85 clips (10%)
+
+Per word: train min 5, val min 2, test min 1 (every word has at least 1 in each group: True)
+Words where one signer had to be split across groups: 3 of 80
+  before, cool, cousin
+Clips whose signer also appears in another group (same word): 6
+
+The TEST set is now fixed. Do not train or tune on it; use it once, at the end.
+Saved data/split_v1.csv

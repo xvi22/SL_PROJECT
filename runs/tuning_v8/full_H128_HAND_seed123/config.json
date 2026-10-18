@@ -1,0 +1,20 @@
+{
+  "hidden": 128,
+  "layers": 1,
+  "dropout": 0.5,
+  "weight_decay": 0.001,
+  "pool": "mean",
+  "bidir": true,
+  "drop_pose_z": true,
+  "hand_relative": true,
+  "seed": 123,
+  "velocity": true,
+  "smooth": 0.1,
+  "handshape_extra": true,
+  "LR": 0.001,
+  "features": 390,
+  "n_classes": 100,
+  "train_set": "full_H128_HAND",
+  "train_clips": 3913,
+  "labels": "data\\processed_v2\\labels.csv"
+}

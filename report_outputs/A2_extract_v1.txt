@@ -1,0 +1,25 @@
+Clips to process: 864 (expected 864)
+
+========== SUMMARY ==========
+Clips extracted: 864 | failed: 0
+Usable clips (hand in >= 20% of frames): 864 of 864
+
+Clip length (frames): min 19, median 65, 90th percentile 96, max 195
+Clip fps values: [23.98, 24.0, 25.0, 29.97, 29.99, 30.0, 30.01, 30.24, 30.25, 30.26, 30.27, 30.28, 30.29, 30.3, 30.31, 30.32, 30.33, 30.34, 30.35, 30.36, 30.37, 30.38, 30.39, 30.4, 30.41, 30.44, 50.0]
+
+Detection (mean share of frames): pose 99.7%, any hand 66.5%
+
+Clips with a frame_end value in the JSON: 0 of 864
+
+Usable clips per word: min 8, mean 10.8
+No word dropped below 8 usable clips.
+
+Lowest hand detection (check these by eye):
+video_id   word  any_hand_share
+   26712    hat           0.220
+   32325  later           0.240
+   06471  black           0.260
+   64283    yes           0.273
+   05749 before           0.278
+
+Saved landmarks\*.npy and landmarks_index.csv

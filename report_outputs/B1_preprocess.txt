@@ -1,0 +1,14 @@
+
+========== PREPROCESSING SUMMARY ==========
+Clips processed: 863 | skipped: 0
+Array X: (863, 64, 197)  (clips, frames, features) | words: 80
+Sign span used (frames, incl. margin): median 44, max 158 -> all resampled to 64
+Hand frames filled by interpolation: 2620 (gaps up to 10 frames)
+Frames with a hand after processing: mean 89.8%
+Clips per word: min 8, mean 10.8
+Value range after normalising: -8.04 to 3.06 (shoulder widths)
+Video sizes: {(288, 192): 195, (320, 180): 8, (320, 240): 77, (640, 360): 5, (640, 480): 114, (656, 370): 91, (720, 400): 94, (736, 414): 48, (854, 480): 13, (1280, 720): 79, (1920, 1080): 139}
+
+Saved data/processed_v1\X.npy, y.npy, meta.csv, labels.csv, config.json
+Check image: data/processed_v1\checks\34733_processed.png
+Check image: data/processed_v1\checks\17016_processed.png

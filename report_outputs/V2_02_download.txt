@@ -1,0 +1,161 @@
+Candidate glosses: 144 for 100 words
+Videos to get: 4421 (4421 unique)
+Opening the zip...
+Already downloaded: 0. To download now: 4421 (2402 MB). Not in zip: 0
+
+======================================================================
+SUMMARY
+======================================================================
+Videos on disk: 4421 of 4421
+Failed this run: 0  (just run the script again to retry)
+Space used: 2.35 GB in data\asl_citizen\videos
+
+Per gloss:
+                            clips  signers  on_disk
+word         gloss                                 
+accident     ACCIDENT          29       27       29
+africa       AFRICA            31       29       31
+all          ALL               31       28       31
+apple        APPLE             32       31       32
+basketball   BASKETBALL1       44       30       44
+             BASKETBALL2       24       21       24
+             BASKETBALL3       24       20       24
+bed          BED1              31       29       31
+             BED2              31       27       31
+before       BEFORE            30       29       30
+bird         BIRD              31       29       31
+birthday     BIRTHDAY          31       28       31
+black        BLACK             31       30       31
+blue         BLUE              31       27       31
+book         BOOK              31       30       31
+bowling      BOWLING1          31       29       31
+             BOWLING2          31       29       31
+brown        BROWN             30       28       30
+but          BUT               30       27       30
+can          CAN1              31       30       31
+             CAN2              30       27       30
+candy        CANDY1            30       29       30
+             CANDY2            32       27       32
+chair        CHAIR             30       29       30
+change       CHANGE            29       27       29
+cheat        CHEAT1            30       29       30
+             CHEAT2            29       28       29
+city         CITY1             32       28       32
+             CITY2             31       27       31
+clothes      CLOTHES           31       30       31
+color        COLOR             30       28       30
+computer     COMPUTER          30       29       30
+cook         COOK              31       27       31
+cool         COOL1             31       30       31
+             COOL2             30       27       30
+             COOL3             31       30       31
+             COOL4             30       28       30
+corn         CORN1             31       30       31
+             CORN2             32       29       32
+             CORN3             31       27       31
+cousin       COUSIN            31       29       31
+cow          COW               30       28       30
+dance        DANCE             32       29       32
+dark         DARK1             39       29       39
+             DARK2             23       21       23
+deaf         DEAF1             39       31       39
+             DEAF2             23       21       23
+decide       DECIDE1           38       28       38
+             DECIDE2           23       22       23
+doctor       DOCTOR1           30       28       30
+             DOCTOR2           31       27       31
+dog          DOG1              45       30       45
+             DOG2              31       29       31
+             DOG3              24       21       24
+             DOG4              23       20       23
+drink        DRINK1            31       29       31
+             DRINK2            30       27       30
+eat          EAT1              39       29       39
+             EAT2              24       23       24
+enjoy        ENJOY             29       28       29
+family       FAMILY            30       28       30
+fine         FINE1             39       30       39
+             FINE2             23       22       23
+finish       FINISH            32       29       32
+fish         FISH              31       29       31
+forget       FORGETFUL         31       27       31
+full         FULL              29       29       29
+give         GIVE              30       28       30
+go           GO                31       28       31
+graduate     GRADUATE          31       29       31
+hat          HAT1              30       28       30
+             HAT2              31       27       31
+hearing      HEARING           32       29       32
+help         HELP              31       27       31
+hot          HOT               31       27       31
+how          HOW1              31       29       31
+             HOW2              31       27       31
+jacket       JACKET1           30       29       30
+             JACKET2           30       26       30
+             JACKET3           31       30       31
+             JACKET4           30       28       30
+kiss         KISS1             31       30       31
+             KISS2             29       28       29
+             KISS3             31       27       31
+language     LANGUAGE          30       29       30
+last         LAST              31       29       31
+later        LATER             32       31       32
+letter       LETTER1           30       28       30
+             LETTER2           31       30       31
+like         LIKE              30       27       30
+man          MAN               31       30       31
+many         MANY              31       28       31
+medicine     MEDICINE          31       27       31
+meet         MEET              29       29       29
+mother       MOTHER            32       28       32
+need         NEED              30       29       30
+no           NO                30       30       30
+now          NOW               30       29       30
+orange       ORANGE            31       29       31
+paint        PAINT             29       28       29
+paper        PAPER             31       29       31
+pink         PINK              31       29       31
+pizza        PIZZA1            31       30       31
+             PIZZA2            31       28       31
+play         PLAY              32       29       32
+pull         PULL              30       27       30
+purple       PURPLE            31       29       31
+right        RIGHT1            31       30       31
+             RIGHT2            32       29       32
+             RIGHT3            31       29       31
+same         SAME1             30       28       30
+             SAME2             32       28       32
+school       SCHOOL            30       30       30
+secretary    SECRETARY         31       30       31
+shirt        SHIRT1            31       29       31
+             SHIRT2            31       28       31
+short        SHORTDISTANCE     31       30       31
+             SHORTPERSON       31       27       31
+             SHORTS            31       29       31
+son          SON               31       30       31
+study        STUDY             30       29       30
+table        TABLE             30       29       30
+tall         TALL1             29       27       29
+             TALL2             31       29       31
+tell         TELL              30       29       30
+thanksgiving THANKSGIVING      31       30       31
+thin         THIN              30       28       30
+thursday     THURSDAY          30       28       30
+time         TIME              31       30       31
+walk         WALK1             31       28       31
+             WALK2             31       27       31
+want         WANT1             32       30       32
+             WANT2             30       28       30
+what         W.H.A.T           30       28       30
+             WHAT1             32       27       32
+             WHAT2             31       26       31
+white        WHITE             30       28       30
+who          WHO               32       29       32
+woman        WOMAN1            32       29       32
+             WOMAN2            30       26       30
+work         WORK              32       28       32
+wrong        WRONG             30       28       30
+year         YEAR              31       30       31
+yes          YES               30       26       30
+
+Saved: data\asl_citizen\candidates.csv

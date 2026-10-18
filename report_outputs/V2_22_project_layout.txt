@@ -1,0 +1,116 @@
+======================================================================
+1. FOLDER OVERVIEW (C:\SL_PROJECT, venv skipped)
+======================================================================
+./                                 3 files      0.1 MB
+WLASL-master/                     51 files     14.1 MB
+data/                         16,335 files     3.51 GB
+   data/asl_citizen/                         13,396 files     3.05 GB
+   data/processed_v1/                             7 files     41.6 MB
+   data/processed_v2/                             5 files    257.1 MB
+   data/test/                                     2 files      0.5 MB
+   data/v1/                                     873 files     50.0 MB
+   data/v2/                                     874 files     50.5 MB
+   data/v3/                                     870 files     51.3 MB
+   data/week1/                                    2 files      0.0 MB
+   data/wlasl_new/                              299 files     16.3 MB
+models/                            2 files     16.4 MB
+report_outputs/                   38 files      0.1 MB
+runs/                            293 files    100.8 MB
+   runs/analysis_val/                             4 files      0.1 MB
+   runs/analysis_val_v2/                          5 files      0.2 MB
+   runs/baseline_20261016_1614/                   5 files      1.3 MB
+   runs/final_test/                               3 files      0.1 MB
+   runs/final_test_best/                          3 files      0.0 MB
+   runs/final_test_v2/                            4 files      0.0 MB
+   runs/tuning/                                  22 files      6.6 MB
+   runs/tuning_v2/                               18 files      5.2 MB
+   runs/tuning_v3/                               10 files      1.1 MB
+   runs/tuning_v4/                               14 files      2.6 MB
+   runs/tuning_v5/                               47 files      8.5 MB
+   runs/tuning_v5_quicktest/                     17 files      2.8 MB
+   runs/tuning_v6/                               47 files     31.9 MB
+   runs/tuning_v6_quicktest/                     17 files     10.6 MB
+   runs/tuning_v7/                               32 files     12.3 MB
+   runs/tuning_v7_quicktest/                     12 files      4.1 MB
+   runs/tuning_v8/                               33 files     13.3 MB
+scripts/                          53 files      0.5 MB
+   scripts/tools/                                 1 files      0.0 MB
+   scripts/v2_asl_citizen/                       14 files      0.1 MB
+   scripts/week1_word_selection/                  4 files      0.0 MB
+   scripts/week2_extraction/                     10 files      0.1 MB
+   scripts/week3_training/                       23 files      0.3 MB
+   scripts/week5_live/                            1 files      0.0 MB
+wlasl-processed/              11,987 files     5.03 GB
+   wlasl-processed/videos/                   11,980 files     5.02 GB
+
+Files directly in the main folder (3):
+   README.md
+   backup_before_tidy.zip
+   tidy_project.py
+
+======================================================================
+2. PYTHON SCRIPTS
+======================================================================
+./: tidy_project.py
+WLASL-master/WLASL-master/code/I3D/: configs.py, pytorch_i3d.py, test_i3d.py, train_i3d.py, videotransforms.py
+WLASL-master/WLASL-master/code/I3D/datasets/: nslt_dataset.py, nslt_dataset_all.py
+WLASL-master/WLASL-master/code/TGCN/: configs.py, gen_features.py, layers.py, models.py, sign_dataset.py, test.py, test_tgcn.py, tgcn_model.py, train_tgcn.py, train_utils.py, utils.py, videotransforms.py
+WLASL-master/WLASL-master/start_kit/: data_reader.py, find_missing.py, preprocess.py, video_downloader.py
+scripts/tools/: check_project_layout.py
+scripts/v2_asl_citizen/: build_v2_sets.py, check_asl_citizen.py, check_asl_citizen_data.py, check_gaps_and_discards.py, check_speed.py, download_asl_citizen.py, extract_asl_citizen.py, extract_wlasl_new20.py, make_variant_checks.py, preprocess_v2.py, split_new20.py, variant_auto.py, variant_decide.py
+scripts/week1_word_selection/: count_words.py, find_word.py, pick_words.py, save_word_list.py
+scripts/week2_extraction/: check_clips.py, check_clips_v2.py, clean_hands.py, compare_v1_v2.py, extract_all.py, extract_all_v2.py, find_phantoms.py, test_one_clip.py
+scripts/week3_training/: analyse_val.py, analyse_val_v2.py, evaluate_test.py, evaluate_test_best.py, evaluate_test_v2.py, preprocess.py, split.py, train_baseline.py, tune.py, tune_v2.py, tune_v3.py, tune_v4.py, tune_v5.py, tune_v6.py, tune_v7.py, tune_v8.py
+scripts/week5_live/: mirror_frame.py
+
+Script problems:
+   - outside scripts/: WLASL-master/WLASL-master/code/I3D/configs.py
+   - outside scripts/: WLASL-master/WLASL-master/code/I3D/datasets/nslt_dataset.py
+   - outside scripts/: WLASL-master/WLASL-master/code/I3D/datasets/nslt_dataset_all.py
+   - outside scripts/: WLASL-master/WLASL-master/code/I3D/pytorch_i3d.py
+   - outside scripts/: WLASL-master/WLASL-master/code/I3D/test_i3d.py
+   - outside scripts/: WLASL-master/WLASL-master/code/I3D/train_i3d.py
+   - outside scripts/: WLASL-master/WLASL-master/code/I3D/videotransforms.py
+   - outside scripts/: WLASL-master/WLASL-master/code/TGCN/configs.py
+   - outside scripts/: WLASL-master/WLASL-master/code/TGCN/gen_features.py
+   - outside scripts/: WLASL-master/WLASL-master/code/TGCN/layers.py
+   - outside scripts/: WLASL-master/WLASL-master/code/TGCN/models.py
+   - outside scripts/: WLASL-master/WLASL-master/code/TGCN/sign_dataset.py
+   - outside scripts/: WLASL-master/WLASL-master/code/TGCN/test.py
+   - outside scripts/: WLASL-master/WLASL-master/code/TGCN/test_tgcn.py
+   - outside scripts/: WLASL-master/WLASL-master/code/TGCN/tgcn_model.py
+   - outside scripts/: WLASL-master/WLASL-master/code/TGCN/train_tgcn.py
+   - outside scripts/: WLASL-master/WLASL-master/code/TGCN/train_utils.py
+   - outside scripts/: WLASL-master/WLASL-master/code/TGCN/utils.py
+   - outside scripts/: WLASL-master/WLASL-master/code/TGCN/videotransforms.py
+   - outside scripts/: WLASL-master/WLASL-master/start_kit/data_reader.py
+   - outside scripts/: WLASL-master/WLASL-master/start_kit/find_missing.py
+   - outside scripts/: WLASL-master/WLASL-master/start_kit/preprocess.py
+   - outside scripts/: WLASL-master/WLASL-master/start_kit/video_downloader.py
+   - outside scripts/: tidy_project.py
+   - same name in several folders: preprocess.py -> scripts/week3_training/preprocess.py
+
+======================================================================
+3. EXPECTED FOLDERS
+======================================================================
+All present
+
+======================================================================
+4. SIZE (for choosing GitHub vs Google Drive)
+======================================================================
+Files over 100 MB (GitHub refuses these): 1
+     256.4 MB  data/processed_v2/X.npy
+   other                                0.8 MB
+   code + docs                         13.9 MB
+   data, videos, MediaPipe models      8.55 GB
+   report_outputs                       0.1 MB
+   runs (models, results)             100.8 MB
+Trained model files (.pt): 53, total 96.5 MB
+
+======================================================================
+5. OPTIONAL CLEAN-UP CANDIDATES (only if you want; nothing is deleted)
+======================================================================
+Quick-test folders (results mean nothing): runs/tuning_v5_quicktest, runs/tuning_v6_quicktest, runs/tuning_v7_quicktest
+__pycache__ folders: 6 (safe to ignore; never upload them)
+
+Saved project_inventory.csv (28,762 files)

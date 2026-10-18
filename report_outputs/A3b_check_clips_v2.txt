@@ -1,0 +1,17 @@
+========== PART 1: ALL CLIPS (v2) ==========
+Resting time (outside the sign span): mean 31.6% of each clip
+Sign span length (frames): min 8, median 40, 90th percentile 60, max 152
+Hand detected INSIDE the sign span: mean 96.8%
+Clips with hands found in under 80% of their sign span: 7
+video_id  word  hand_in_span  longest_gap
+   17097   dog         0.643            9
+   26712   hat         0.714            8
+   64283   yes         0.750            2
+   06471 black         0.769            2
+   65084 apple         0.769            5
+   06474 black         0.783            5
+   42831  pink         0.789            3
+Saved span_stats_v2.csv
+
+========== PART 2: CHOSEN CLIPS ==========
+26712 (hat): 91 frames, sign span 29-56, resting 69%, hands in span 71%, longest gap 8 -> checks_v2\26712_check.png

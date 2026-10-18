@@ -1,0 +1,3 @@
+experiment,val_top1,val_top5,train_top1,gap,best_epoch,epochs,params,ms_per_sign,seconds,hidden,layers,dropout,weight_decay,pool,bidir,drop_pose_z,hand_relative,seed
+E6_seed7,50.6,78.4,96.7,46.1,86,116,133200,1.0,576,64,1,0.5,0.001,mean,True,True,True,7
+E6_seed123,44.9,76.1,92.5,47.6,47,77,133200,1.3,56,64,1,0.5,0.001,mean,True,True,True,123

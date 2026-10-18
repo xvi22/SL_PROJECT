@@ -1,0 +1,22 @@
+ASL Citizen clips (usable after extraction): 4319
+  removed - gap > 10 frames: 153
+  removed - gloss not kept (wrong version): 956
+  available for training: 3210
+
+========== TRAINING SETS ==========
+set                         clips  per word min/median  signers per word min/median
+v1 (80 words, WLASL)          602                5 / 7                        2 / 5
+WLASL only (100 words)        703                3 / 7                        2 / 5
+v2-matched                   1426               6 / 14                       3 / 12
+v2-full                      3913               6 / 36                       3 / 32
+
+Official WLASL100 training clips (I3D / SPOTER): 1442 (per word min 12 / median 14)
+v2-matched training clips: 1426  (WLASL 703 + ASL Citizen 723)
+Words that could not reach the official count: 3: cheat (7/12), later (9/14), same (6/12)
+v2-full training clips: 3913  (WLASL 703 + ASL Citizen 3210)
+
+Validation (WLASL only, same in both sets): 204 clips, 100 words (v1 words 176)
+Test (WLASL only, same in both sets): 105 clips, 100 words (v1 words 85)  <- not used until the one final test
+Words with no ASL Citizen clips: cheat, later, same
+
+Saved data\split_v2_full.csv, data\split_v2_matched.csv and data\v2_targets.csv

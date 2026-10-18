@@ -1,0 +1,47 @@
+Handshape-feature experiment | set: full (3913 clips) | base: H128 | seeds (42, 7, 123)
+Building E7 + handshape features...
+Features per frame: 390 (E7: 346)
+
+----- full_H128_HAND_seed42: 3913 training clips, 390 features, 558,180 parameters -----
+  epoch  10 | train top1 87.6% | val top1 71.1% top5 91.2%
+  epoch  20 | train top1 92.7% | val top1 75.5% top5 91.2%
+  epoch  30 | train top1 93.2% | val top1 75.0% top5 92.2%
+  epoch  40 | train top1 94.7% | val top1 78.4% top5 95.1%
+  epoch  50 | train top1 94.2% | val top1 72.1% top5 90.7%
+  epoch  60 | train top1 94.9% | val top1 74.5% top5 93.1%
+  epoch  70 | train top1 95.0% | val top1 76.5% top5 93.6%
+  best epoch 46: val top1 80.4%, top5 95.1% | train top1 93.9% | 8 min
+  validation: all 100 80.4% | like v1 82.4%
+
+----- full_H128_HAND_seed7: 3913 training clips, 390 features, 558,180 parameters -----
+  epoch  10 | train top1 87.4% | val top1 69.1% top5 88.7%
+  epoch  20 | train top1 91.7% | val top1 70.6% top5 91.7%
+  epoch  30 | train top1 93.5% | val top1 75.5% top5 94.1%
+  epoch  40 | train top1 93.8% | val top1 73.0% top5 91.2%
+  epoch  50 | train top1 94.2% | val top1 72.5% top5 91.2%
+  epoch  60 | train top1 94.1% | val top1 76.0% top5 95.1%
+  epoch  70 | train top1 94.9% | val top1 73.0% top5 94.1%
+  epoch  80 | train top1 94.7% | val top1 76.0% top5 94.6%
+  best epoch 54: val top1 80.4%, top5 94.6% | train top1 94.6% | 8 min
+  validation: all 100 80.4% | like v1 83.0%
+
+----- full_H128_HAND_seed123: 3913 training clips, 390 features, 558,180 parameters -----
+  epoch  10 | train top1 87.8% | val top1 69.6% top5 90.2%
+  epoch  20 | train top1 92.3% | val top1 77.5% top5 93.1%
+  epoch  30 | train top1 93.4% | val top1 79.4% top5 94.1%
+  epoch  40 | train top1 93.5% | val top1 74.0% top5 94.6%
+  epoch  50 | train top1 94.0% | val top1 78.4% top5 93.6%
+  best epoch 23: val top1 80.4%, top5 91.7% | train top1 92.4% | 5 min
+  validation: all 100 80.4% | like v1 82.4%
+
+========== HANDSHAPE FEATURES ON FULL (base H128): average of seeds ==========
+            runs  all100_mean  likev1_mean  likev1_min  likev1_max  top5_mean  train_top1  params
+experiment                                                                                       
+HAND           3         80.4         82.6        82.4        83.0       93.8        93.6  558180
+
+========== 3-SEED ENSEMBLES (validation) ==========
+experiment  all100_top1  all100_top5  likev1_top1  likev1_top5
+      HAND         82.8         96.1         86.4         96.6
+
+How to read: keep it only if the AVERAGE beats the base by more than ~3 points.
+The test set was not used. Saved runs\tuning_v8\results.csv

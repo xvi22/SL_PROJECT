@@ -1,0 +1,16 @@
+========== v1 vs v2 ==========
+Clips compared: 864 | frames: 56429
+Frames where the hand changed slot (label overruled): 877 (1.6% of frames) in 390 clips
+Frames where a lost second hand was recovered:        1285 (2.3% of frames) in 465 clips
+
+Clips with the most slot changes:
+video_id   word  frames  swapped_frames
+   24636   give      92              58
+   05740 before      48              28
+   05637    bed      50              21
+   26713    hat      68              19
+   69343   give      92              16
+
+hat (26712): 2 frames changed slot
+
+Saved compare_v1_v2.csv

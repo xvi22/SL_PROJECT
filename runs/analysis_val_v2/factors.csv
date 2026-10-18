@@ -1,0 +1,55 @@
+factor,group,model,n,acc,lo,hi
+training clips for the word,7-8,v1,56,51.8,39.0,64.3
+training clips for the word,9-20,v1,70,60.0,48.3,70.7
+training clips for the word,<=6,v1,50,52.0,38.5,65.2
+training clips for the word,21-40,best,145,85.5,78.9,90.3
+training clips for the word,41+,best,29,89.7,73.6,96.4
+training clips for the word,9-20,best,2,100.0,34.2,100.0
+training signers for the word,5-6,v1,96,54.2,44.2,63.8
+training signers for the word,7-12,v1,29,72.4,54.3,85.3
+training signers for the word,<=4,v1,51,47.1,34.1,60.5
+training signers for the word,13-30,best,42,83.3,69.4,91.7
+training signers for the word,31+,best,132,87.1,80.3,91.8
+training signers for the word,5-6,best,2,100.0,34.2,100.0
+ASL Citizen clips for the word,0,best,2,100.0,34.2,100.0
+ASL Citizen clips for the word,1-30,best,125,86.4,79.3,91.3
+ASL Citizen clips for the word,31-60,best,43,83.7,70.0,91.9
+ASL Citizen clips for the word,61+,best,6,100.0,61.0,100.0
+hand detection in clip,80-95%,v1,156,55.1,47.3,62.7
+hand detection in clip,<80%,v1,5,40.0,11.8,76.9
+hand detection in clip,>95%,v1,15,60.0,35.7,80.2
+hand detection in clip,80-95%,best,156,89.1,83.2,93.1
+hand detection in clip,<80%,best,5,60.0,23.1,88.2
+hand detection in clip,>95%,best,15,66.7,41.7,84.8
+hand gaps filled,no gaps,v1,34,44.1,28.9,60.5
+hand gaps filled,some gaps filled,v1,142,57.7,49.5,65.6
+hand gaps filled,no gaps,best,34,88.2,73.4,95.3
+hand gaps filled,some gaps filled,best,142,85.9,79.2,90.7
+sign length,long (>50),v1,69,56.5,44.8,67.6
+sign length,medium,v1,77,54.5,43.5,65.2
+sign length,short (<=35),v1,30,53.3,36.1,69.8
+sign length,long (>50),best,69,87.0,77.0,93.0
+sign length,medium,best,77,87.0,77.7,92.8
+sign length,short (<=35),best,30,83.3,66.4,92.7
+frame rate,24-25,v1,50,48.0,34.8,61.5
+frame rate,50+,v1,1,100.0,20.7,100.0
+frame rate,~30,v1,125,57.6,48.8,65.9
+frame rate,24-25,best,50,90.0,78.6,95.7
+frame rate,50+,best,1,100.0,20.7,100.0
+frame rate,~30,best,125,84.8,77.5,90.0
+video height,301-500,v1,87,51.7,41.4,61.9
+video height,<=300,v1,43,55.8,41.1,69.6
+video height,>500,v1,46,60.9,46.5,73.6
+video height,301-500,best,87,85.1,76.1,91.1
+video height,<=300,best,43,90.7,78.4,96.3
+video height,>500,best,46,84.8,71.8,92.4
+signer seen in training,never seen,v1,10,70.0,39.7,89.2
+signer seen in training,seen (other words),v1,166,54.2,46.6,61.6
+signer seen in training,never seen,best,10,90.0,59.6,98.2
+signer seen in training,seen (other words),best,166,86.1,80.1,90.6
+one/two-handed (estimated),one-handed,v1,83,51.8,41.2,62.2
+one/two-handed (estimated),two-handed,v1,93,58.1,47.9,67.6
+one/two-handed (estimated),one-handed,best,83,81.9,72.3,88.7
+one/two-handed (estimated),two-handed,best,93,90.3,82.6,94.8
+v1 word vs new word,new word (20),best,28,78.6,60.5,89.8
+v1 word vs new word,v1 word (80),best,176,83.5,77.3,88.3

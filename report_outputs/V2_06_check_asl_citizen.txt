@@ -1,0 +1,42 @@
+======================================================================
+1. SIGN SPANS (same code for both datasets, cleaned v3 data, usable clips)
+======================================================================
+
+WLASL v3: 863 usable clips
+  resting time (no hands at start/end): 31.6% of each clip
+  hand found inside the sign span:     96.7% of span frames
+  sign span frames: min 8 / median 39 / p90 60 / max 152
+  sign span seconds: median 1.37 / p90 2.02
+  clips with hand in < 80% of span: 7  | longest gap > 10 frames: 0
+
+ASL Citizen v3: 4319 usable clips
+  resting time (no hands at start/end): 54.7% of each clip
+  hand found inside the sign span:     96.5% of span frames
+  sign span frames: min 6 / median 31 / p90 52 / max 548
+  sign span seconds: median 1.07 / p90 1.74
+  clips with hand in < 80% of span: 246  | longest gap > 10 frames: 153
+
+ASL Citizen hand detection: whole clip 43.5% -> inside sign span 96.5%
+fps below 20 (choppy): 123 clips | 50+ fps: 7 clips
+Discarded hands per clip: ASL Citizen 1.01 (WLASL v3: 368 / 863 = 0.43)
+Discarded hands by signer (top 5 of 50): P52 (499), P9 (452), P26 (341), P33 (253), P4 (213)  | share of all discards from these 5: 40%
+
+======================================================================
+2. CHECK IMAGES
+======================================================================
+  lowest hand detection  9769693490028684-BIRD (bird/BIRD): hands v3 0%, discarded 19, pose 100%
+  lowest hand detection  9379494496719258-DARK 2 (dark/DARK2): hands v3 0%, discarded 0, pose 97%
+  lowest hand detection  2082336345836704-DECIDE (decide/DECIDE1): hands v3 0%, discarded 0, pose 100%
+  lowest hand detection  0859634019917137-RIGHT 2 (right/RIGHT2): hands v3 0%, discarded 0, pose 100%
+  most hands discarded   020505967324098817-JACKET (jacket/JACKET1): hands v3 36%, discarded 60, pose 100%
+  most hands discarded   634374372445685-BROWN (brown/BROWN): hands v3 38%, discarded 56, pose 100%
+  most hands discarded   0505419163931653-NEED (need/NEED): hands v3 46%, discarded 50, pose 100%
+  most hands discarded   4609251265632117-seedCHEAT 2 (cheat/CHEAT2): hands v3 45%, discarded 48, pose 100%
+  lowest pose detection  6298412168136709-FISH (fish/FISH): hands v3 44%, discarded 0, pose 79%
+  lowest pose detection  14152383029406645-TABLE (table/TABLE): hands v3 29%, discarded 1, pose 79%
+  lowest pose detection  7458898077174032-SHORTS (short/SHORTS): hands v3 16%, discarded 0, pose 79%
+  random normal clip     5674183383464995-LETTER 2 (letter/LETTER2): hands v3 49%, discarded 0, pose 100%
+  random normal clip     7417129856766742-FULL (full/FULL): hands v3 64%, discarded 0, pose 100%
+  random normal clip     4817688414510197-WRONG (wrong/WRONG): hands v3 40%, discarded 0, pose 100%
+
+Saved data\asl_citizen\span_stats.csv and images in data\asl_citizen\checks

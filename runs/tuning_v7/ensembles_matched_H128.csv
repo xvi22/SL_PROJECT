@@ -1,0 +1,4 @@
+experiment,models,all100_top1,all100_top5,v1clips_top1,v1clips_top5,likev1_top1,likev1_top5
+no augmentation,3,73.5,89.7,73.3,88.6,73.3,92.0
+AUG_GEO,3,69.6,91.2,69.3,90.3,69.3,90.3
+AUG_MIRROR,3,70.6,90.7,69.3,89.8,72.2,93.2

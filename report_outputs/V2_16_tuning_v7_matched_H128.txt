@@ -1,0 +1,94 @@
+Augmentation experiment | set: matched (1426 clips) | base: H128 | experiments: AUG_GEO, AUG_MIRROR | seeds (42, 7, 123)
+
+----- matched_H128_AUG_GEO_seed42: 1426 training clips, augmentation {'geo': True, 'mirror': False}, 513,124 parameters -----
+  epoch  10 | train top1 61.3% | val top1 49.5% top5 80.9%
+  epoch  20 | train top1 79.6% | val top1 54.9% top5 83.3%
+  epoch  30 | train top1 85.4% | val top1 58.3% top5 89.2%
+  epoch  40 | train top1 88.1% | val top1 64.2% top5 88.7%
+  epoch  50 | train top1 89.6% | val top1 64.7% top5 89.7%
+  epoch  60 | train top1 92.1% | val top1 64.7% top5 86.8%
+  epoch  70 | train top1 90.6% | val top1 66.7% top5 91.7%
+  epoch  80 | train top1 93.1% | val top1 66.2% top5 90.2%
+  epoch  90 | train top1 94.1% | val top1 70.1% top5 90.7%
+  epoch 100 | train top1 92.8% | val top1 65.2% top5 88.2%
+  epoch 110 | train top1 93.3% | val top1 66.7% top5 90.2%
+  epoch 120 | train top1 93.8% | val top1 68.6% top5 90.7%
+  best epoch 90: val top1 70.1% | train top1 (augmented) 94.1% | 6 min
+  validation: all 100 70.1% | like v1 69.9%
+
+----- matched_H128_AUG_GEO_seed7: 1426 training clips, augmentation {'geo': True, 'mirror': False}, 513,124 parameters -----
+  epoch  10 | train top1 59.2% | val top1 47.1% top5 81.9%
+  epoch  20 | train top1 78.8% | val top1 57.8% top5 86.8%
+  epoch  30 | train top1 83.2% | val top1 60.3% top5 86.8%
+  epoch  40 | train top1 86.9% | val top1 64.2% top5 87.7%
+  epoch  50 | train top1 89.1% | val top1 61.3% top5 89.2%
+  epoch  60 | train top1 90.2% | val top1 61.8% top5 89.2%
+  epoch  70 | train top1 91.0% | val top1 60.8% top5 89.7%
+  epoch  80 | train top1 92.6% | val top1 64.7% top5 86.8%
+  best epoch 53: val top1 66.2% | train top1 (augmented) 90.7% | 4 min
+  validation: all 100 66.2% | like v1 67.6%
+
+----- matched_H128_AUG_GEO_seed123: 1426 training clips, augmentation {'geo': True, 'mirror': False}, 513,124 parameters -----
+  epoch  10 | train top1 60.7% | val top1 51.5% top5 79.9%
+  epoch  20 | train top1 76.4% | val top1 59.8% top5 85.8%
+  epoch  30 | train top1 85.4% | val top1 62.3% top5 87.3%
+  epoch  40 | train top1 87.9% | val top1 61.8% top5 86.8%
+  epoch  50 | train top1 90.5% | val top1 64.7% top5 86.3%
+  epoch  60 | train top1 92.4% | val top1 63.2% top5 87.7%
+  epoch  70 | train top1 92.9% | val top1 60.8% top5 87.3%
+  best epoch 49: val top1 66.7% | train top1 (augmented) 90.8% | 4 min
+  validation: all 100 66.7% | like v1 71.0%
+
+----- matched_H128_AUG_MIRROR_seed42: 1426 training clips, augmentation {'geo': False, 'mirror': True}, 513,124 parameters -----
+  epoch  10 | train top1 57.6% | val top1 43.1% top5 74.0%
+  epoch  20 | train top1 72.0% | val top1 50.5% top5 80.9%
+  epoch  30 | train top1 79.5% | val top1 57.8% top5 85.8%
+  epoch  40 | train top1 83.9% | val top1 61.8% top5 88.2%
+  epoch  50 | train top1 87.2% | val top1 61.8% top5 88.2%
+  epoch  60 | train top1 88.9% | val top1 63.2% top5 89.7%
+  epoch  70 | train top1 90.3% | val top1 60.8% top5 86.3%
+  best epoch 45: val top1 68.1% | train top1 (augmented) 84.4% | 3 min
+  validation: all 100 68.1% | like v1 70.5%
+
+----- matched_H128_AUG_MIRROR_seed7: 1426 training clips, augmentation {'geo': False, 'mirror': True}, 513,124 parameters -----
+  epoch  10 | train top1 55.5% | val top1 42.6% top5 73.5%
+  epoch  20 | train top1 72.5% | val top1 50.5% top5 85.8%
+  epoch  30 | train top1 78.0% | val top1 56.4% top5 86.8%
+  epoch  40 | train top1 82.0% | val top1 61.3% top5 86.8%
+  epoch  50 | train top1 85.9% | val top1 64.2% top5 88.7%
+  epoch  60 | train top1 86.4% | val top1 62.7% top5 87.3%
+  epoch  70 | train top1 89.2% | val top1 63.7% top5 89.7%
+  epoch  80 | train top1 89.2% | val top1 61.8% top5 90.2%
+  best epoch 54: val top1 66.2% | train top1 (augmented) 85.7% | 4 min
+  validation: all 100 66.2% | like v1 66.5%
+
+----- matched_H128_AUG_MIRROR_seed123: 1426 training clips, augmentation {'geo': False, 'mirror': True}, 513,124 parameters -----
+  epoch  10 | train top1 56.4% | val top1 43.1% top5 73.0%
+  epoch  20 | train top1 72.6% | val top1 55.4% top5 84.3%
+  epoch  30 | train top1 81.0% | val top1 58.3% top5 86.8%
+  epoch  40 | train top1 84.4% | val top1 62.7% top5 87.7%
+  epoch  50 | train top1 85.8% | val top1 59.8% top5 87.7%
+  epoch  60 | train top1 86.8% | val top1 66.7% top5 85.3%
+  epoch  70 | train top1 88.9% | val top1 63.2% top5 87.7%
+  epoch  80 | train top1 89.8% | val top1 66.2% top5 85.8%
+  epoch  90 | train top1 89.5% | val top1 64.7% top5 90.7%
+  epoch 100 | train top1 91.3% | val top1 65.7% top5 89.2%
+  best epoch 73: val top1 68.1% | train top1 (augmented) 87.7% | 5 min
+  validation: all 100 68.1% | like v1 68.2%
+
+========== AUGMENTATION ON MATCHED (base H128): SINGLE MODELS, average of seeds ==========
+                 runs  all100_mean  likev1_mean  likev1_min  likev1_max  top5_mean  train_top1  best_epoch  minutes
+experiment                                                                                                         
+no augmentation     3         68.5         69.5        67.6        70.5       89.0        96.6        94.0      6.5
+AUG_GEO             3         67.7         69.5        67.6        71.0       88.9        91.9        64.0      4.4
+AUG_MIRROR          3         67.5         68.4        66.5        70.5       88.7        85.9        57.0      3.8
+
+========== 3-SEED ENSEMBLES (validation) ==========
+     experiment  all100_top1  all100_top5  likev1_top1  likev1_top5
+no augmentation         73.5         89.7         73.3         92.0
+        AUG_GEO         69.6         91.2         69.3         90.3
+     AUG_MIRROR         70.6         90.7         72.2         93.2
+
+How to read: keep an augmentation only if its AVERAGE beats 'no augmentation' by more than ~3 points.
+train_top1 is measured on the CHANGED clips, so it is naturally a bit lower with augmentation.
+The test set was not used. Saved runs\tuning_v7\results.csv

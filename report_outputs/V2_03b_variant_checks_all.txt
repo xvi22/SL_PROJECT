@@ -1,0 +1,5 @@
+data\asl_citizen\variant_choice.csv already exists, not overwritten
+Making 100 comparison images
+
+Images made: 100 of 100
+Saved in data\asl_citizen\variant_checks and data\asl_citizen\exact_checks
